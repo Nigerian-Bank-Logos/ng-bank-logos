@@ -1,0 +1,3968 @@
+{
+  "NGN": {
+    "metadata": {
+      "total_banks": 643,
+      "last_updated": "2026-03-21",
+      "country": "Nigeria",
+      "sources": [
+        "Paystack API",
+        "Globus Bank PDF",
+        "NIP Institution List (Kuda)"
+      ],
+      "notes": "bankCode = NIP institution code (6-digit). scCode = CBN sort code (3-digit legacy). MFBs typically only have bankCode."
+    },
+    "categories": {
+      "commercial_banks": [
+        {
+          "name": "Access Bank Nigeria",
+          "aliases": ["Access Bank Nigeria"],
+          "bankCode": "000014",
+          "scCode": "044"
+        },
+        {
+          "name": "Access Bank Plc (Diamond)",
+          "aliases": ["Access Bank Plc (Diamond)"],
+          "bankCode": "000005",
+          "scCode": "063"
+        },
+        {
+          "name": "Alpha Morgan Bank",
+          "aliases": ["Alpha Morgan Bank"],
+          "bankCode": "000041",
+          "scCode": "108"
+        },
+        {
+          "name": "Alternative Bank Limited",
+          "aliases": ["Alternative Bank Limited"],
+          "bankCode": "000037",
+          "scCode": null
+        },
+        {
+          "name": "Citibank",
+          "aliases": ["Citibank Nigeria"],
+          "bankCode": "000009",
+          "scCode": "023"
+        },
+        {
+          "name": "Ecobank",
+          "aliases": ["Ecobank Nigeria"],
+          "bankCode": "000010",
+          "scCode": "050"
+        },
+        {
+          "name": "First City Monument Bank",
+          "aliases": ["FCMB"],
+          "bankCode": "000003",
+          "scCode": "214"
+        },
+        {
+          "name": "Fidelity Bank",
+          "aliases": ["Fidelity Bank"],
+          "bankCode": "000007",
+          "scCode": "070"
+        },
+        {
+          "name": "First Bank of Nigeria",
+          "aliases": ["FBN"],
+          "bankCode": "000016",
+          "scCode": "011"
+        },
+        {
+          "name": "Globus Bank",
+          "aliases": ["Globus Bank"],
+          "bankCode": "000027",
+          "scCode": "103"
+        },
+        {
+          "name": "GTBank Plc",
+          "aliases": ["Guaranty Trust Bank", "GTB", "GTCO"],
+          "bankCode": "000013",
+          "scCode": "058"
+        },
+        {
+          "name": "Heritage Bank",
+          "aliases": ["Heritage Bank"],
+          "bankCode": "030",
+          "scCode": "030"
+        },
+        {
+          "name": "Jaiz Bank",
+          "aliases": ["Jaiz Bank"],
+          "bankCode": "000006",
+          "scCode": "301"
+        },
+        {
+          "name": "Keystone Bank",
+          "aliases": ["Keystone Bank"],
+          "bankCode": "000002",
+          "scCode": "082"
+        },
+        {
+          "name": "Lotus Bank",
+          "aliases": ["Lotus Bank"],
+          "bankCode": "000029",
+          "scCode": "303"
+        },
+        {
+          "name": "Nexim Bank",
+          "aliases": ["Nexim Bank"],
+          "bankCode": "030001",
+          "scCode": null
+        },
+        {
+          "name": "NOVA Bank",
+          "aliases": ["NOVA Bank"],
+          "bankCode": "060003",
+          "scCode": "561"
+        },
+        {
+          "name": "Optimus Bank Limited",
+          "aliases": ["Optimus Bank Limited"],
+          "bankCode": "000036",
+          "scCode": "107"
+        },
+        {
+          "name": "Parallex Bank",
+          "aliases": ["Parallex Bank", "Parallex"],
+          "bankCode": "000030",
+          "scCode": "104"
+        },
+        {
+          "name": "Polaris Bank",
+          "aliases": ["Skye Bank"],
+          "bankCode": "000008",
+          "scCode": "076"
+        },
+        {
+          "name": "PremiumTrust Bank",
+          "aliases": ["PremiumTrust Bank"],
+          "bankCode": "000031",
+          "scCode": "105"
+        },
+        {
+          "name": "Providus Bank",
+          "aliases": ["Providus Bank"],
+          "bankCode": "000023",
+          "scCode": "101"
+        },
+        {
+          "name": "Signature Bank Ltd",
+          "aliases": ["Signature Bank Ltd"],
+          "bankCode": "000034",
+          "scCode": "106"
+        },
+        {
+          "name": "Stanbic IBTC Bank",
+          "aliases": ["Stanbic IBTC Bank"],
+          "bankCode": "000012",
+          "scCode": "221"
+        },
+        {
+          "name": "Standard Chartered Bank",
+          "aliases": ["Standard Chartered Bank"],
+          "bankCode": "000021",
+          "scCode": "068"
+        },
+        {
+          "name": "Sterling Bank",
+          "aliases": ["Sterling Bank"],
+          "bankCode": "000001",
+          "scCode": "232"
+        },
+        {
+          "name": "Summit Bank",
+          "aliases": ["Summit Bank"],
+          "bankCode": "080003",
+          "scCode": "00305"
+        },
+        {
+          "name": "SunTrust Bank",
+          "aliases": ["SunTrust Bank"],
+          "bankCode": "000022",
+          "scCode": "100"
+        },
+        {
+          "name": "TAJ Bank",
+          "aliases": ["TAJ Bank"],
+          "bankCode": "000026",
+          "scCode": "302"
+        },
+        {
+          "name": "Tatum Bank",
+          "aliases": ["Tatum Bank"],
+          "bankCode": "000042",
+          "scCode": "109"
+        },
+        {
+          "name": "Titan Trust Bank",
+          "aliases": ["Titan Trust Bank"],
+          "bankCode": "000025",
+          "scCode": "102"
+        },
+        {
+          "name": "Union Bank",
+          "aliases": ["Union Bank"],
+          "bankCode": "000018",
+          "scCode": "032"
+        },
+        {
+          "name": "United Bank for Africa",
+          "aliases": ["UBA"],
+          "bankCode": "000004",
+          "scCode": "033"
+        },
+        {
+          "name": "Unity Bank",
+          "aliases": ["Unity Bank"],
+          "bankCode": "000011",
+          "scCode": "215"
+        },
+        {
+          "name": "Wema Bank",
+          "aliases": ["Wema Bank"],
+          "bankCode": "000017",
+          "scCode": "035"
+        },
+        {
+          "name": "Zenith Bank Plc",
+          "aliases": ["Zenith Bank Plc"],
+          "bankCode": "000015",
+          "scCode": "057"
+        }
+      ],
+      "finance_companies": [
+        {
+          "name": "78 Finance Company Limited",
+          "aliases": ["78 Finance Company Limited"],
+          "bankCode": "110072",
+          "scCode": "40195"
+        },
+        {
+          "name": "Amaanah Finance",
+          "aliases": ["Amaanah Finance"],
+          "bankCode": "050045",
+          "scCode": null
+        },
+        {
+          "name": "AMS Finance",
+          "aliases": ["AMS Finance"],
+          "bankCode": "050048",
+          "scCode": null
+        },
+        {
+          "name": "Ascensia Finance",
+          "aliases": ["Ascensia Finance"],
+          "bankCode": "050040",
+          "scCode": null
+        },
+        {
+          "name": "Branch International Finance Company Limited",
+          "aliases": ["Branch International Finance Company Limited"],
+          "bankCode": "050006",
+          "scCode": "FC40163"
+        },
+        {
+          "name": "Cardinalstone",
+          "aliases": ["Cardinalstone"],
+          "bankCode": "050017",
+          "scCode": null
+        },
+        {
+          "name": "CENTRUM FINANCE",
+          "aliases": ["CENTRUM FINANCE"],
+          "bankCode": "050032",
+          "scCode": null
+        },
+        {
+          "name": "Ceviant Finance Limited",
+          "aliases": ["Ceviant Finance Limited"],
+          "bankCode": "050043",
+          "scCode": null
+        },
+        {
+          "name": "County Finance Limited",
+          "aliases": ["County Finance Limited"],
+          "bankCode": "050001",
+          "scCode": "40128"
+        },
+        {
+          "name": "Credit Direct Limited",
+          "aliases": ["Credit Direct Limited"],
+          "bankCode": "110049",
+          "scCode": "40119"
+        },
+        {
+          "name": "Crystal Finance Company Limited",
+          "aliases": ["Crystal Finance Company Limited"],
+          "bankCode": "050029",
+          "scCode": null
+        },
+        {
+          "name": "Evib Finance",
+          "aliases": ["Evib Finance"],
+          "bankCode": "050034",
+          "scCode": null
+        },
+        {
+          "name": "Factoring and Supply Chain Finance Limited",
+          "aliases": ["Factoring and Supply Chain Finance Limited"],
+          "bankCode": "050042",
+          "scCode": null
+        },
+        {
+          "name": "Fast Credit Limited",
+          "aliases": ["Fast Credit Limited"],
+          "bankCode": "050009",
+          "scCode": null
+        },
+        {
+          "name": "Fewchore Finance",
+          "aliases": ["Fewchore Finance"],
+          "bankCode": "050003",
+          "scCode": null
+        },
+        {
+          "name": "First Marina Trust Finance",
+          "aliases": ["First Marina Trust Finance"],
+          "bankCode": "050022",
+          "scCode": null
+        },
+        {
+          "name": "Gadol Finance",
+          "aliases": ["Gadol Finance"],
+          "bankCode": "050033",
+          "scCode": null
+        },
+        {
+          "name": "GDL Finance",
+          "aliases": ["GDL Finance"],
+          "bankCode": "050026",
+          "scCode": null
+        },
+        {
+          "name": "Griffin Finance",
+          "aliases": ["Griffin Finance"],
+          "bankCode": "050041",
+          "scCode": null
+        },
+        {
+          "name": "Nolt Finance",
+          "aliases": ["Nolt Finance"],
+          "bankCode": "050037",
+          "scCode": null
+        },
+        {
+          "name": "Northquest Finance",
+          "aliases": ["Northquest Finance"],
+          "bankCode": "050030",
+          "scCode": null
+        },
+        {
+          "name": "PFI FINANCE COMPANY LIMITED",
+          "aliases": ["PFI FINANCE COMPANY LIMITED"],
+          "bankCode": "050021",
+          "scCode": null
+        },
+        {
+          "name": "PROSPERIS FINANCE LIMITED",
+          "aliases": ["PROSPERIS FINANCE LIMITED"],
+          "bankCode": "050023",
+          "scCode": null
+        },
+        {
+          "name": "SAGE GREY FINANCE LIMITED",
+          "aliases": ["SAGE GREY FINANCE LIMITED"],
+          "bankCode": "40165",
+          "scCode": "40165"
+        },
+        {
+          "name": "Sciart Finance",
+          "aliases": ["Sciart Finance"],
+          "bankCode": "050024",
+          "scCode": null
+        },
+        {
+          "name": "Spring Sky Finance",
+          "aliases": ["Spring Sky Finance"],
+          "bankCode": "050036",
+          "scCode": null
+        },
+        {
+          "name": "THE BROOK FINANCE LTD",
+          "aliases": ["THE BROOK FINANCE LTD"],
+          "bankCode": "050031",
+          "scCode": null
+        },
+        {
+          "name": "Vale Finance Limited",
+          "aliases": ["Vale Finance Limited"],
+          "bankCode": "050020",
+          "scCode": null
+        },
+        {
+          "name": "Whitecrust Finance",
+          "aliases": ["Whitecrust Finance"],
+          "bankCode": "050035",
+          "scCode": null
+        },
+        {
+          "name": "Zedvance Finance Limited",
+          "aliases": ["Zedvance Finance Limited"],
+          "bankCode": "050019",
+          "scCode": null
+        }
+      ],
+      "merchant_banks": [
+        {
+          "name": "Coronation Merchant Bank",
+          "aliases": ["Coronation Merchant Bank", "Coronation"],
+          "bankCode": "060001",
+          "scCode": "559"
+        },
+        {
+          "name": "FBNQuest Merchant Bank",
+          "aliases": ["FBNQuest Merchant Bank"],
+          "bankCode": "911",
+          "scCode": "911"
+        },
+        {
+          "name": "FSDH Merchant Bank Limited",
+          "aliases": ["FSDH Merchant Bank Limited"],
+          "bankCode": "400001",
+          "scCode": "601"
+        },
+        {
+          "name": "Greenwich Merchant Bank",
+          "aliases": ["Greenwich Merchant Bank"],
+          "bankCode": "060004",
+          "scCode": "562"
+        },
+        {
+          "name": "Rand Merchant Bank",
+          "aliases": ["Rand Merchant Bank", "RMB"],
+          "bankCode": "000024",
+          "scCode": "502"
+        }
+      ],
+      "microfinance_banks": [
+        {
+          "name": "5TT Microfinance Bank",
+          "aliases": ["5TT MFB"],
+          "bankCode": "090832",
+          "scCode": null
+        },
+        {
+          "name": "9jaPay Microfinance Bank",
+          "aliases": ["9jaPay MFB"],
+          "bankCode": "090629",
+          "scCode": null
+        },
+        {
+          "name": "AB MFB",
+          "aliases": ["AB Microfinance Bank", "AB MFB"],
+          "bankCode": "090270",
+          "scCode": null
+        },
+        {
+          "name": "Above Only MFB",
+          "aliases": ["Above Only Microfinance Bank"],
+          "bankCode": "090260",
+          "scCode": "51204"
+        },
+        {
+          "name": "ABSU MFB",
+          "aliases": ["ABSU MFB"],
+          "bankCode": "090640",
+          "scCode": null
+        },
+        {
+          "name": "ABU MFB",
+          "aliases": [
+            "ABU Microfinance Bank",
+            "Ahmadu Bello University Microfinance Bank"
+          ],
+          "bankCode": "090197",
+          "scCode": null
+        },
+        {
+          "name": "Abulesoro MFB",
+          "aliases": ["Abulesoro MFB"],
+          "bankCode": "51312",
+          "scCode": "51312"
+        },
+        {
+          "name": "Accion MFB",
+          "aliases": ["Accion Microfinance Bank", "Accion MFB"],
+          "bankCode": "090134",
+          "scCode": "602"
+        },
+        {
+          "name": "Ada MFB",
+          "aliases": ["Ada MFB"],
+          "bankCode": "090483",
+          "scCode": null
+        },
+        {
+          "name": "Addosser MFB",
+          "aliases": ["Addosser Microfinance Bank", "Addosser MFB"],
+          "bankCode": "090160",
+          "scCode": null
+        },
+        {
+          "name": "Adeyemi College Staff MFB",
+          "aliases": ["Adeyemi College Staff MFB"],
+          "bankCode": "090268",
+          "scCode": null
+        },
+        {
+          "name": "Advancly MFB",
+          "aliases": ["Advancly MFB"],
+          "bankCode": "090759",
+          "scCode": null
+        },
+        {
+          "name": "Aella MFB",
+          "aliases": ["Aella MFB"],
+          "bankCode": "090614",
+          "scCode": "50315"
+        },
+        {
+          "name": "Akalabo MFB",
+          "aliases": ["Akalabo MFB"],
+          "bankCode": "090698",
+          "scCode": null
+        },
+        {
+          "name": "AKSU MFB",
+          "aliases": ["AKSU MFB"],
+          "bankCode": "090756",
+          "scCode": null
+        },
+        {
+          "name": "AKU Microfinance Bank",
+          "aliases": ["AKU Microfinance Bank"],
+          "bankCode": "090531",
+          "scCode": "51336"
+        },
+        {
+          "name": "Akuchukwu Microfinance Bank Limited",
+          "aliases": ["Akuchukwu Microfinance Bank Limited"],
+          "bankCode": "090561",
+          "scCode": null
+        },
+        {
+          "name": "Al-Barakah MFB",
+          "aliases": ["Al-Barakah Microfinance Bank"],
+          "bankCode": "090133",
+          "scCode": "50055"
+        },
+        {
+          "name": "Al-Hayat MFB",
+          "aliases": ["Al-Hayat Microfinance Bank"],
+          "bankCode": "090277",
+          "scCode": null
+        },
+        {
+          "name": "Alekun MFB",
+          "aliases": ["Alekun Microfinance Bank"],
+          "bankCode": "090259",
+          "scCode": null
+        },
+        {
+          "name": "Alert MFB",
+          "aliases": ["Alert Microfinance Bank"],
+          "bankCode": "090297",
+          "scCode": null
+        },
+        {
+          "name": "Allworkers MFB",
+          "aliases": ["Allworkers Microfinance Bank"],
+          "bankCode": "090131",
+          "scCode": null
+        },
+        {
+          "name": "Alpha Kapital MFB",
+          "aliases": ["Alpha Kapital Microfinance Bank"],
+          "bankCode": "090169",
+          "scCode": null
+        },
+        {
+          "name": "AMAC MFB",
+          "aliases": ["AMAC MFB"],
+          "bankCode": "090394",
+          "scCode": null
+        },
+        {
+          "name": "AMJU Unique MFB",
+          "aliases": ["AMJU Unique Microfinance Bank"],
+          "bankCode": "090180",
+          "scCode": "50926"
+        },
+        {
+          "name": "AMML MFB",
+          "aliases": ["AMML Microfinance Bank"],
+          "bankCode": "914",
+          "scCode": "914"
+        },
+        {
+          "name": "Ample MFB",
+          "aliases": ["Ample MFB"],
+          "bankCode": "090770",
+          "scCode": null
+        },
+        {
+          "name": "Anioma MFB",
+          "aliases": ["ANIOMA MFB"],
+          "bankCode": "090751",
+          "scCode": null
+        },
+        {
+          "name": "APEKS MFB",
+          "aliases": ["Apeks Microfinance Bank"],
+          "bankCode": "090143",
+          "scCode": null
+        },
+        {
+          "name": "Apex Trust MFB",
+          "aliases": ["Apex Trust MFB"],
+          "bankCode": "090737",
+          "scCode": null
+        },
+        {
+          "name": "Aramoko MFB",
+          "aliases": ["Aramoko MFB"],
+          "bankCode": "50083",
+          "scCode": "50083"
+        },
+        {
+          "name": "ArcPay MFB",
+          "aliases": ["ArcPay MFB"],
+          "bankCode": "090689",
+          "scCode": null
+        },
+        {
+          "name": "Arise Microfinance Bank",
+          "aliases": ["Arise Microfinance Bank"],
+          "bankCode": "090282",
+          "scCode": null
+        },
+        {
+          "name": "ARM MFB",
+          "aliases": ["ARM MFB"],
+          "bankCode": "090816",
+          "scCode": null
+        },
+        {
+          "name": "Asset Matrix MFB",
+          "aliases": ["Asset Matrix MFB"],
+          "bankCode": "090287",
+          "scCode": null
+        },
+        {
+          "name": "Assets Microfinance Bank",
+          "aliases": ["Assets Microfinance Bank"],
+          "bankCode": "090473",
+          "scCode": "50092"
+        },
+        {
+          "name": "Astra Polaris MFB",
+          "aliases": ["Astrapolaris Microfinance Bank"],
+          "bankCode": "090172",
+          "scCode": "MFB50094"
+        },
+        {
+          "name": "Auchi MFB",
+          "aliases": ["Auchi Microfinance Bank"],
+          "bankCode": "090264",
+          "scCode": null
+        },
+        {
+          "name": "Auchi Poly MFB",
+          "aliases": ["Auchi Poly Microfinance Bank"],
+          "bankCode": "090817",
+          "scCode": null
+        },
+        {
+          "name": "AVUENEGBE MICROFINANCE BANK",
+          "aliases": ["AVUENEGBE MICROFINANCE BANK"],
+          "bankCode": "090478",
+          "scCode": null
+        },
+        {
+          "name": "Avvic MFB",
+          "aliases": ["Avvic MFB"],
+          "bankCode": "090853",
+          "scCode": null
+        },
+        {
+          "name": "AWACASH MICROFINANCE BANK",
+          "aliases": ["AWACASH MICROFINANCE BANK"],
+          "bankCode": "090633",
+          "scCode": "51351"
+        },
+        {
+          "name": "Awesome MFB",
+          "aliases": ["Awesome MFB"],
+          "bankCode": "090662",
+          "scCode": null
+        },
+        {
+          "name": "AZTEC MICROFINANCE BANK LIMITED",
+          "aliases": ["AZTEC MICROFINANCE BANK LIMITED"],
+          "bankCode": "090540",
+          "scCode": "51337"
+        },
+        {
+          "name": "Babcock MFB",
+          "aliases": ["Babcock MFB"],
+          "bankCode": "090729",
+          "scCode": null
+        },
+        {
+          "name": "Baige MFB",
+          "aliases": ["Baige MFB"],
+          "bankCode": "090862",
+          "scCode": null
+        },
+        {
+          "name": "Baines Credit Microfinance Bank",
+          "aliases": ["Baines Credit Microfinance Bank"],
+          "bankCode": "090188",
+          "scCode": "51229"
+        },
+        {
+          "name": "Balogun Gambari MFB",
+          "aliases": ["Balogun Gambari MFB"],
+          "bankCode": "090326",
+          "scCode": null
+        },
+        {
+          "name": "Bam MFB",
+          "aliases": ["Bam MFB"],
+          "bankCode": "090651",
+          "scCode": null
+        },
+        {
+          "name": "Banc Corp Microfinance Bank",
+          "aliases": ["Banc Corp Microfinance Bank"],
+          "bankCode": "090581",
+          "scCode": "50117"
+        },
+        {
+          "name": "Bank of Agriculture",
+          "aliases": ["Bank of Agriculture"],
+          "bankCode": "090367",
+          "scCode": null
+        },
+        {
+          "name": "Bank78 Microfinance Bank",
+          "aliases": ["Bank78 Microfinance Bank"],
+          "bankCode": "090866",
+          "scCode": "11072"
+        },
+        {
+          "name": "BankEasy MFB",
+          "aliases": ["Bankeasy MFB"],
+          "bankCode": "090789",
+          "scCode": null
+        },
+        {
+          "name": "BANKIT MICROFINANCE BANK LTD",
+          "aliases": ["BANKIT MICROFINANCE BANK LTD"],
+          "bankCode": "090275",
+          "scCode": "50572"
+        },
+        {
+          "name": "BANKLY MFB",
+          "aliases": ["BANKLY MFB"],
+          "bankCode": "090529",
+          "scCode": "51341"
+        },
+        {
+          "name": "Baobab Microfinance Bank",
+          "aliases": ["Baobab Microfinance Bank"],
+          "bankCode": "090136",
+          "scCode": "MFB50992"
+        },
+        {
+          "name": "Barnawa MFB",
+          "aliases": ["Barnawa MFB"],
+          "bankCode": "090783",
+          "scCode": null
+        },
+        {
+          "name": "Bauchi CFA MFB",
+          "aliases": ["Bauchi CFA MFB"],
+          "bankCode": "090387",
+          "scCode": null
+        },
+        {
+          "name": "Bayero Microfinance Bank",
+          "aliases": ["Bayero Microfinance Bank"],
+          "bankCode": "090316",
+          "scCode": null
+        },
+        {
+          "name": "BC Kash Microfinance Bank",
+          "aliases": ["BC Kash Microfinance Bank"],
+          "bankCode": "090127",
+          "scCode": null
+        },
+        {
+          "name": "Beamer MFB",
+          "aliases": ["Beamer MFB"],
+          "bankCode": "090591",
+          "scCode": null
+        },
+        {
+          "name": "BellBank Microfinance Bank",
+          "aliases": ["BellBank Microfinance Bank"],
+          "bankCode": "090672",
+          "scCode": "51100"
+        },
+        {
+          "name": "Benysta Microfinance Bank Limited",
+          "aliases": ["Benysta Microfinance Bank Limited"],
+          "bankCode": "090413",
+          "scCode": "51267"
+        },
+        {
+          "name": "Berachah Microfinance Bank Ltd.",
+          "aliases": ["Berachah Microfinance Bank Ltd."],
+          "bankCode": "090618",
+          "scCode": "50122"
+        },
+        {
+          "name": "Beststar Microfinance Bank",
+          "aliases": ["Beststar Microfinance Bank"],
+          "bankCode": "090615",
+          "scCode": "50123"
+        },
+        {
+          "name": "Bethel MFB",
+          "aliases": ["Bethel MFB"],
+          "bankCode": "090683",
+          "scCode": null
+        },
+        {
+          "name": "BIPC Microfinance Bank",
+          "aliases": ["BIPC Microfinance Bank"],
+          "bankCode": "090336",
+          "scCode": null
+        },
+        {
+          "name": "BKD New MFB",
+          "aliases": ["BKD New MFB"],
+          "bankCode": "090722",
+          "scCode": null
+        },
+        {
+          "name": "Bloc MFB",
+          "aliases": ["Bloc MFB"],
+          "bankCode": "090977",
+          "scCode": null
+        },
+        {
+          "name": "Blooms Microfinance Bank",
+          "aliases": ["Blooms MFB"],
+          "bankCode": "090743",
+          "scCode": null
+        },
+        {
+          "name": "Bobble MFB",
+          "aliases": ["Bobble MFB"],
+          "bankCode": "090617",
+          "scCode": null
+        },
+        {
+          "name": "BOCTrust Microfinance Bank",
+          "aliases": ["BOCTrust Microfinance Bank"],
+          "bankCode": "090117",
+          "scCode": "952"
+        },
+        {
+          "name": "Bokkos MFB",
+          "aliases": ["Bokkos MFB"],
+          "bankCode": "090703",
+          "scCode": null
+        },
+        {
+          "name": "BOLD MFB",
+          "aliases": ["BOLD MFB"],
+          "bankCode": "090753",
+          "scCode": "50725"
+        },
+        {
+          "name": "Boost Microfinance Bank",
+          "aliases": ["Boost Microfinance Bank"],
+          "bankCode": "090819",
+          "scCode": "51449"
+        },
+        {
+          "name": "Borgu MFB",
+          "aliases": ["Borgu MFB"],
+          "bankCode": "090395",
+          "scCode": null
+        },
+        {
+          "name": "Boromu MFB",
+          "aliases": ["Boromu MFB"],
+          "bankCode": "090501",
+          "scCode": null
+        },
+        {
+          "name": "Borstal MFB",
+          "aliases": ["Borstal MFB"],
+          "bankCode": "090454",
+          "scCode": null
+        },
+        {
+          "name": "Bosak Microfinance Bank",
+          "aliases": ["Bosak Microfinance Bank"],
+          "bankCode": "090176",
+          "scCode": "650"
+        },
+        {
+          "name": "Bowen Microfinance Bank",
+          "aliases": ["Bowen Microfinance Bank"],
+          "bankCode": "090148",
+          "scCode": "50931"
+        },
+        {
+          "name": "Bowman MFB",
+          "aliases": ["Bowman MFB"],
+          "bankCode": "090804",
+          "scCode": null
+        },
+        {
+          "name": "Brethren Microfinance Bank",
+          "aliases": ["Brethren Microfinance Bank"],
+          "bankCode": "090293",
+          "scCode": null
+        },
+        {
+          "name": "Brightway Microfinance Bank",
+          "aliases": ["Brightway MFB"],
+          "bankCode": "090308",
+          "scCode": null
+        },
+        {
+          "name": "Build MFB",
+          "aliases": ["Build Microfinance Bank"],
+          "bankCode": "090613",
+          "scCode": null
+        },
+        {
+          "name": "Bundi MFB",
+          "aliases": ["Bundi Microfinance Bank"],
+          "bankCode": "090661",
+          "scCode": null
+        },
+        {
+          "name": "Bunkure MFB",
+          "aliases": ["Bunkure MFB"],
+          "bankCode": "090655",
+          "scCode": null
+        },
+        {
+          "name": "BuyPower MFB",
+          "aliases": ["BuyPower MFB"],
+          "bankCode": "090682",
+          "scCode": "50645"
+        },
+        {
+          "name": "Bway MFB",
+          "aliases": ["Bway Microfiance Bank", "Bridgeway MFB"],
+          "bankCode": "090774",
+          "scCode": null
+        },
+        {
+          "name": "Canaan MFB",
+          "aliases": ["Canaan MFB"],
+          "bankCode": "090647",
+          "scCode": null
+        },
+        {
+          "name": "Capitalmetriq Swift Microfinance Bank",
+          "aliases": ["Capitalmetriq Swift Microfinance Bank"],
+          "bankCode": "090509",
+          "scCode": null
+        },
+        {
+          "name": "Capstone MFB",
+          "aliases": ["Capstone MFB"],
+          "bankCode": "090445",
+          "scCode": null
+        },
+        {
+          "name": "Casa MFB",
+          "aliases": ["Casa MFB"],
+          "bankCode": "090840",
+          "scCode": null
+        },
+        {
+          "name": "Casha MFB",
+          "aliases": ["Casha MFB"],
+          "bankCode": "090848",
+          "scCode": null
+        },
+        {
+          "name": "Cashbridge Microfinance Bank Limited",
+          "aliases": ["Cashbridge Microfinance Bank Limited"],
+          "bankCode": "090634",
+          "scCode": "51353"
+        },
+        {
+          "name": "CASHCONNECT MFB",
+          "aliases": ["CASHCONNECT MFB"],
+          "bankCode": "090360",
+          "scCode": "865"
+        },
+        {
+          "name": "CashRite MFB",
+          "aliases": ["CashRite MFB"],
+          "bankCode": "090649",
+          "scCode": null
+        },
+        {
+          "name": "Cedrus MFB",
+          "aliases": ["Cedrus MFB"],
+          "bankCode": "090851",
+          "scCode": null
+        },
+        {
+          "name": "CEMCS Microfinance Bank",
+          "aliases": ["CEMCS Microfinance Bank"],
+          "bankCode": "090154",
+          "scCode": "50823"
+        },
+        {
+          "name": "Chanelle Microfinance Bank Limited",
+          "aliases": ["Chanelle Microfinance Bank Limited"],
+          "bankCode": "090397",
+          "scCode": "50171"
+        },
+        {
+          "name": "Charis MFB",
+          "aliases": ["Charis MFB"],
+          "bankCode": "090815",
+          "scCode": null
+        },
+        {
+          "name": "Chase MFB",
+          "aliases": ["Chase MFB"],
+          "bankCode": "090523",
+          "scCode": null
+        },
+        {
+          "name": "Chikum Microfinance Bank",
+          "aliases": ["Chikum Microfinance Bank"],
+          "bankCode": "090141",
+          "scCode": "312"
+        },
+        {
+          "name": "Moneyfield MFB",
+          "aliases": ["CIT Microfinance Bank"],
+          "bankCode": "090144",
+          "scCode": null
+        },
+        {
+          "name": "Clearpay MFB",
+          "aliases": ["Clearpay MFB"],
+          "bankCode": "090482",
+          "scCode": null
+        },
+        {
+          "name": "Consistent Trust MFB",
+          "aliases": ["Consistent Trust MFB"],
+          "bankCode": "090553",
+          "scCode": null
+        },
+        {
+          "name": "Consumer Microfinance Bank",
+          "aliases": ["Consumer Microfinance Bank"],
+          "bankCode": "090130",
+          "scCode": "50910"
+        },
+        {
+          "name": "Cool Microfinance Bank Limited",
+          "aliases": ["Cool Microfinance Bank Limited"],
+          "bankCode": "090842",
+          "scCode": "51458"
+        },
+        {
+          "name": "COOPFUND MFB",
+          "aliases": ["COOPFUND MFB"],
+          "bankCode": "090717",
+          "scCode": null
+        },
+        {
+          "name": "Corestep MFB",
+          "aliases": ["Corestep MFB"],
+          "bankCode": "090365",
+          "scCode": "50204"
+        },
+        {
+          "name": "Covenant MFB",
+          "aliases": ["Covenant Microfinance Bank"],
+          "bankCode": "070006",
+          "scCode": "949"
+        },
+        {
+          "name": "Credit Afrique Microfinance Bank",
+          "aliases": ["Credit Afrique Microfinance Bank"],
+          "bankCode": "090159",
+          "scCode": null
+        },
+        {
+          "name": "Creditville MFB",
+          "aliases": ["Creditville Microfinance Bank"],
+          "bankCode": "090611",
+          "scCode": null
+        },
+        {
+          "name": "Crescent MFB",
+          "aliases": ["Crescent Microfinance Bank"],
+          "bankCode": "51297",
+          "scCode": "51297"
+        },
+        {
+          "name": "Crust Microfinance Bank",
+          "aliases": ["Crust MFB"],
+          "bankCode": "090560",
+          "scCode": null
+        },
+        {
+          "name": "CRUTECH MICROFINANCE BANK LTD",
+          "aliases": ["CRUTECH MFB"],
+          "bankCode": "50216",
+          "scCode": "50216"
+        },
+        {
+          "name": "Dabtikir MFB",
+          "aliases": ["Dabtikir MFB"],
+          "bankCode": "090802",
+          "scCode": null
+        },
+        {
+          "name": "Daily Trust MFB",
+          "aliases": ["Daily Trust MFB"],
+          "bankCode": "090705",
+          "scCode": null
+        },
+        {
+          "name": "Dal MFB",
+          "aliases": ["Dal MFB"],
+          "bankCode": "090596",
+          "scCode": null
+        },
+        {
+          "name": "Dash Microfinance Bank",
+          "aliases": ["Dash Microfinance Bank"],
+          "bankCode": "090845",
+          "scCode": "51368"
+        },
+        {
+          "name": "Davenport MICROFINANCE BANK",
+          "aliases": ["Davenport MICROFINANCE BANK"],
+          "bankCode": "090673",
+          "scCode": "51334"
+        },
+        {
+          "name": "Daylight Microfinance Bank",
+          "aliases": ["Daylight Microfinance Bank"],
+          "bankCode": "090167",
+          "scCode": null
+        },
+        {
+          "name": "Dayspring MFB",
+          "aliases": ["Dayspring MFB"],
+          "bankCode": "090873",
+          "scCode": null
+        },
+        {
+          "name": "Destiny MFB",
+          "aliases": ["Destiny MFB"],
+          "bankCode": "090723",
+          "scCode": null
+        },
+        {
+          "name": "Dew MFB",
+          "aliases": ["Dew MFB"],
+          "bankCode": "090978",
+          "scCode": null
+        },
+        {
+          "name": "Digitvant MFB",
+          "aliases": ["Digitvant MFB"],
+          "bankCode": "090745",
+          "scCode": null
+        },
+        {
+          "name": "Dillon Microfinance Bank",
+          "aliases": ["Dillon Microfinance Bank"],
+          "bankCode": "090828",
+          "scCode": "51450"
+        },
+        {
+          "name": "Doje MFB",
+          "aliases": ["Doje MFB"],
+          "bankCode": "090404",
+          "scCode": null
+        },
+        {
+          "name": "Dot Microfinance Bank",
+          "aliases": ["Dot Microfinance Bank"],
+          "bankCode": "090470",
+          "scCode": "50162"
+        },
+        {
+          "name": "DSC Microfinance Bank",
+          "aliases": ["DSC Microfinance Bank"],
+          "bankCode": "090821",
+          "scCode": null
+        },
+        {
+          "name": "Duxbank MFB",
+          "aliases": ["Duxbank MFB"],
+          "bankCode": "090847",
+          "scCode": null
+        },
+        {
+          "name": "DW MFB",
+          "aliases": ["DW MFB"],
+          "bankCode": "090721",
+          "scCode": null
+        },
+        {
+          "name": "e-Barcs Microfinance Bank",
+          "aliases": ["e-Barcs Microfinance Bank"],
+          "bankCode": "090156",
+          "scCode": null
+        },
+        {
+          "name": "Eagle Flight Microfinance Bank",
+          "aliases": ["Eagle Flight Microfinance Bank"],
+          "bankCode": "090294",
+          "scCode": null
+        },
+        {
+          "name": "Earnwell MFB",
+          "aliases": ["Earnwell MFB"],
+          "bankCode": "090674",
+          "scCode": null
+        },
+        {
+          "name": "Eastman MFB",
+          "aliases": ["Eastman MFB"],
+          "bankCode": "090707",
+          "scCode": null
+        },
+        {
+          "name": "EBSU Microfinance Bank",
+          "aliases": ["EBSU Microfinance Bank"],
+          "bankCode": "50922",
+          "scCode": "50922"
+        },
+        {
+          "name": "Edfin Microfinance Bank",
+          "aliases": ["Edfin Microfinance Bank"],
+          "bankCode": "090310",
+          "scCode": null
+        },
+        {
+          "name": "Ejindu MFB",
+          "aliases": ["Ejindu MFB"],
+          "bankCode": "090694",
+          "scCode": null
+        },
+        {
+          "name": "Ekimogun MFB",
+          "aliases": ["Ekimogun MFB"],
+          "bankCode": "50263",
+          "scCode": "50263"
+        },
+        {
+          "name": "Ekondo Microfinance Bank",
+          "aliases": ["Ekondo Microfinance Bank"],
+          "bankCode": "090097",
+          "scCode": "098"
+        },
+        {
+          "name": "Ellington MFB",
+          "aliases": ["Ellington MFB"],
+          "bankCode": "090811",
+          "scCode": null
+        },
+        {
+          "name": "Emaar MFB",
+          "aliases": ["Emaar MFB"],
+          "bankCode": "090712",
+          "scCode": null
+        },
+        {
+          "name": "Emeralds Microfinance Bank",
+          "aliases": ["Emeralds Microfinance Bank"],
+          "bankCode": "090273",
+          "scCode": null
+        },
+        {
+          "name": "Eminence MFB",
+          "aliases": ["Eminence MFB"],
+          "bankCode": "091002",
+          "scCode": null
+        },
+        {
+          "name": "Empire Trust Microfinance Bank",
+          "aliases": ["Empire Trust Microfinance Bank"],
+          "bankCode": "913",
+          "scCode": "913"
+        },
+        {
+          "name": "Entity MFB",
+          "aliases": ["Entity MFB"],
+          "bankCode": "090656",
+          "scCode": null
+        },
+        {
+          "name": "Equator MFB",
+          "aliases": ["Equator MFB"],
+          "bankCode": "090872",
+          "scCode": null
+        },
+        {
+          "name": "Esan Microfinance Bank",
+          "aliases": ["Esan Microfinance Bank"],
+          "bankCode": "090189",
+          "scCode": null
+        },
+        {
+          "name": "Eso-E Microfinance Bank",
+          "aliases": ["Eso-E Microfinance Bank"],
+          "bankCode": "090166",
+          "scCode": null
+        },
+        {
+          "name": "Ethica MFB",
+          "aliases": ["Ethica MFB"],
+          "bankCode": "090982",
+          "scCode": null
+        },
+        {
+          "name": "Evangel Microfinance Bank",
+          "aliases": ["Evangel Microfinance Bank"],
+          "bankCode": "090304",
+          "scCode": null
+        },
+        {
+          "name": "Evergreen Microfinance Bank",
+          "aliases": ["Evergreen Microfinance Bank"],
+          "bankCode": "090332",
+          "scCode": null
+        },
+        {
+          "name": "EXCEL FINANCE BANK",
+          "aliases": ["EXCEL FINANCE BANK"],
+          "bankCode": "090678",
+          "scCode": null
+        },
+        {
+          "name": "Excellent MFB",
+          "aliases": ["Excellent MFB"],
+          "bankCode": "090541",
+          "scCode": null
+        },
+        {
+          "name": "Fairmoney Microfinance Bank",
+          "aliases": ["Fairmoney Microfinance Bank"],
+          "bankCode": "090551",
+          "scCode": "51318"
+        },
+        {
+          "name": "Fame MFB",
+          "aliases": ["Fame MFB"],
+          "bankCode": "090330",
+          "scCode": null
+        },
+        {
+          "name": "FAST Microfinance Bank",
+          "aliases": ["FAST Microfinance Bank"],
+          "bankCode": "090179",
+          "scCode": null
+        },
+        {
+          "name": "FCMB MFB",
+          "aliases": ["FCMB MFB"],
+          "bankCode": "090409",
+          "scCode": "51241"
+        },
+        {
+          "name": "FCT Microfinance Bank",
+          "aliases": ["FCT Microfinance Bank"],
+          "bankCode": "090290",
+          "scCode": null
+        },
+        {
+          "name": "Federal Polytechnic Nekede MFB",
+          "aliases": ["Federal Polytechnic Nekede MFB"],
+          "bankCode": "090398",
+          "scCode": null
+        },
+        {
+          "name": "Federal University Dutse MFB",
+          "aliases": ["Federal University Dutse MFB"],
+          "bankCode": "090318",
+          "scCode": null
+        },
+        {
+          "name": "FederalPoly Nasarawa MFB",
+          "aliases": ["FederalPoly Nasarawa MFB"],
+          "bankCode": "090298",
+          "scCode": null
+        },
+        {
+          "name": "Fedeth MFB",
+          "aliases": ["Fedeth MFB"],
+          "bankCode": "50298",
+          "scCode": "50298"
+        },
+        {
+          "name": "FETS",
+          "aliases": ["FETS"],
+          "bankCode": "100001",
+          "scCode": null
+        },
+        {
+          "name": "FFS Microfinance Bank",
+          "aliases": ["FFS Microfinance Bank"],
+          "bankCode": "090153",
+          "scCode": "51110"
+        },
+        {
+          "name": "Fidfund Microfinance Bank",
+          "aliases": ["Fidfund Microfinance Bank"],
+          "bankCode": "090126",
+          "scCode": null
+        },
+        {
+          "name": "Finatrust Microfinance Bank",
+          "aliases": ["Finatrust Microfinance Bank"],
+          "bankCode": "090111",
+          "scCode": null
+        },
+        {
+          "name": "Firmus Microfinance Bank",
+          "aliases": ["Firmus Microfinance Bank"],
+          "bankCode": "090366",
+          "scCode": "51314"
+        },
+        {
+          "name": "First Ally MFB",
+          "aliases": ["First Ally MFB"],
+          "bankCode": "090135",
+          "scCode": null
+        },
+        {
+          "name": "First Lowland MFB",
+          "aliases": ["First Lowland MFB"],
+          "bankCode": "090868",
+          "scCode": null
+        },
+        {
+          "name": "First Multiple Microfinance Bank",
+          "aliases": ["First Multiple Microfinance Bank"],
+          "bankCode": "090163",
+          "scCode": null
+        },
+        {
+          "name": "First Option Microfinance Bank",
+          "aliases": ["First Option Microfinance Bank"],
+          "bankCode": "090285",
+          "scCode": "50934"
+        },
+        {
+          "name": "First Royal Microfinance Bank",
+          "aliases": ["First Royal Microfinance Bank"],
+          "bankCode": "090164",
+          "scCode": null
+        },
+        {
+          "name": "FIRSTMIDAS MFB",
+          "aliases": ["FIRSTMIDAS MFB"],
+          "bankCode": "51333",
+          "scCode": "51333"
+        },
+        {
+          "name": "Fit MFB",
+          "aliases": ["Fit MFB"],
+          "bankCode": "090856",
+          "scCode": null
+        },
+        {
+          "name": "Flexi MFB",
+          "aliases": ["Flexi MFB"],
+          "bankCode": "090835",
+          "scCode": null
+        },
+        {
+          "name": "Flutterwave MFB",
+          "aliases": ["Flutterwave Microfinance Bank"],
+          "bankCode": "090567",
+          "scCode": null
+        },
+        {
+          "name": "FOCUS MFB",
+          "aliases": ["FOCUS MFB"],
+          "bankCode": "090709",
+          "scCode": null
+        },
+        {
+          "name": "Foresight MFB",
+          "aliases": ["Foresight MFB"],
+          "bankCode": "090521",
+          "scCode": null
+        },
+        {
+          "name": "Fortis Microfinance Bank",
+          "aliases": ["Fortis Microfinance Bank"],
+          "bankCode": "948",
+          "scCode": "948"
+        },
+        {
+          "name": "Fortress MFB",
+          "aliases": ["Fortress MFB"],
+          "bankCode": "D53",
+          "scCode": "D53"
+        },
+        {
+          "name": "Fullrange Microfinance Bank",
+          "aliases": ["Fullrange Microfinance Bank"],
+          "bankCode": "090145",
+          "scCode": null
+        },
+        {
+          "name": "FUTMINNA MICROFINANCE BANK",
+          "aliases": ["FUTMINNA MICROFINANCE BANK"],
+          "bankCode": "832",
+          "scCode": "832"
+        },
+        {
+          "name": "Futo Microfinance Bank",
+          "aliases": ["Futo MFB"],
+          "bankCode": "090158",
+          "scCode": null
+        },
+        {
+          "name": "Garun Mallam MFB",
+          "aliases": ["Garun Mallam MFB"],
+          "bankCode": "MFB51093",
+          "scCode": "MFB51093"
+        },
+        {
+          "name": "Gashua Microfinance Bank",
+          "aliases": ["Gashua Microfinance Bank"],
+          "bankCode": "090168",
+          "scCode": null
+        },
+        {
+          "name": "Giant Stride MFB",
+          "aliases": ["Giant Stride MFB"],
+          "bankCode": "090475",
+          "scCode": null
+        },
+        {
+          "name": "Glory Microfinance Bank",
+          "aliases": ["Glory Microfinance Bank"],
+          "bankCode": "090278",
+          "scCode": null
+        },
+        {
+          "name": "Goldman MFB",
+          "aliases": ["Goldman MFB"],
+          "bankCode": "090574",
+          "scCode": null
+        },
+        {
+          "name": "Gombe MFB",
+          "aliases": ["Gombe MFB"],
+          "bankCode": "090586",
+          "scCode": null
+        },
+        {
+          "name": "GOOD SHEPHERD MICROFINANCE BANK",
+          "aliases": ["GOOD SHEPHERD MICROFINANCE BANK"],
+          "bankCode": "090664",
+          "scCode": null
+        },
+        {
+          "name": "Gosifechukwu MFB",
+          "aliases": ["Gosifechukwu MFB"],
+          "bankCode": "090687",
+          "scCode": null
+        },
+        {
+          "name": "Gowans Microfinance Bank",
+          "aliases": ["Gowans Microfinance Bank"],
+          "bankCode": "090122",
+          "scCode": null
+        },
+        {
+          "name": "Grants Microfinance Bank",
+          "aliases": ["Grants Microfinance Bank"],
+          "bankCode": "090335",
+          "scCode": null
+        },
+        {
+          "name": "Granule MFB",
+          "aliases": ["Granule MFB"],
+          "bankCode": "090857",
+          "scCode": null
+        },
+        {
+          "name": "Greenacres MFB",
+          "aliases": ["Greenacres MFB"],
+          "bankCode": "090599",
+          "scCode": null
+        },
+        {
+          "name": "GreenBank Microfinance Bank",
+          "aliases": ["GreenBank Microfinance Bank"],
+          "bankCode": "090178",
+          "scCode": null
+        },
+        {
+          "name": "Greenville Microfinance Bank",
+          "aliases": ["Greenville Microfinance Bank"],
+          "bankCode": "090269",
+          "scCode": null
+        },
+        {
+          "name": "Grooming Microfinance Bank",
+          "aliases": ["Grooming Microfinance Bank"],
+          "bankCode": "090195",
+          "scCode": "51276"
+        },
+        {
+          "name": "GTI MFB",
+          "aliases": ["GTI MFB"],
+          "bankCode": "090385",
+          "scCode": "50368"
+        },
+        {
+          "name": "Gwong MFB",
+          "aliases": ["Gwong MFB"],
+          "bankCode": "090500",
+          "scCode": null
+        },
+        {
+          "name": "Hackman Microfinance Bank",
+          "aliases": ["Hackman Microfinance Bank"],
+          "bankCode": "090147",
+          "scCode": "51251"
+        },
+        {
+          "name": "Hala Microfinance Bank",
+          "aliases": ["Hala Microfinance Bank"],
+          "bankCode": "090291",
+          "scCode": null
+        },
+        {
+          "name": "Halo MFB",
+          "aliases": ["Halo MFB"],
+          "bankCode": "090539",
+          "scCode": null
+        },
+        {
+          "name": "Hamada MFB",
+          "aliases": ["Hamada MFB"],
+          "bankCode": "090980",
+          "scCode": null
+        },
+        {
+          "name": "Hasal Microfinance Bank",
+          "aliases": ["Hasal Microfinance Bank"],
+          "bankCode": "958",
+          "scCode": "958"
+        },
+        {
+          "name": "Hayat Trust MFB",
+          "aliases": ["Hayat Trust MFB"],
+          "bankCode": "090777",
+          "scCode": "51364"
+        },
+        {
+          "name": "Hillpost MFB",
+          "aliases": ["HILLPOST MFB"],
+          "bankCode": "090761",
+          "scCode": null
+        },
+        {
+          "name": "Innovative MFB",
+          "aliases": ["IBANK Microfinance Bank"],
+          "bankCode": "090115",
+          "scCode": "51211"
+        },
+        {
+          "name": "IBBU MFB",
+          "aliases": ["IBBU MFB"],
+          "bankCode": "090697",
+          "scCode": "51279"
+        },
+        {
+          "name": "IBILE Microfinance Bank",
+          "aliases": ["IBILE Microfinance Bank"],
+          "bankCode": "090118",
+          "scCode": "51244"
+        },
+        {
+          "name": "Igbo-Ukwu MFB",
+          "aliases": ["Igbo-Ukwu MFB"],
+          "bankCode": "090803",
+          "scCode": null
+        },
+        {
+          "name": "Ihiala MFB",
+          "aliases": ["Ihiala MFB"],
+          "bankCode": "090725",
+          "scCode": null
+        },
+        {
+          "name": "Ijare MFB",
+          "aliases": ["Ijare MFB"],
+          "bankCode": "090730",
+          "scCode": null
+        },
+        {
+          "name": "Ikenne Microfinance Bank",
+          "aliases": ["Ikenne Microfinance Bank"],
+          "bankCode": "090324",
+          "scCode": null
+        },
+        {
+          "name": "Ikere MFB",
+          "aliases": ["Ikere MFB"],
+          "bankCode": "090799",
+          "scCode": null
+        },
+        {
+          "name": "Ikire Microfinance Bank",
+          "aliases": ["Ikire Microfinance Bank"],
+          "bankCode": "090279",
+          "scCode": null
+        },
+        {
+          "name": "Ikorodu Division MFB",
+          "aliases": ["Ikorodu Division MFB"],
+          "bankCode": "090844",
+          "scCode": null
+        },
+        {
+          "name": "Ikoyi ile MFB",
+          "aliases": ["Ikoyi ile Microfinance Bank"],
+          "bankCode": "090681",
+          "scCode": null
+        },
+        {
+          "name": "Ikoyi Osun MFB",
+          "aliases": ["Ikoyi Osun MFB"],
+          "bankCode": "50439",
+          "scCode": "50439"
+        },
+        {
+          "name": "Ilaro Poly Microfinance Bank",
+          "aliases": ["Ilaro Poly Microfinance Bank"],
+          "bankCode": "50442",
+          "scCode": "50442"
+        },
+        {
+          "name": "Ile Oluji MFB",
+          "aliases": ["Ile Oluji MFB"],
+          "bankCode": "090710",
+          "scCode": null
+        },
+        {
+          "name": "Ilishan MFB",
+          "aliases": ["Ilishan MFB"],
+          "bankCode": "090037",
+          "scCode": null
+        },
+        {
+          "name": "Ilora MFB",
+          "aliases": ["Ilora MFB"],
+          "bankCode": "090430",
+          "scCode": null
+        },
+        {
+          "name": "ILUTITUN-OSORO MFB",
+          "aliases": ["ILUTITUN-OSORO MFB"],
+          "bankCode": "090834",
+          "scCode": null
+        },
+        {
+          "name": "Imo State Microfinance Bank",
+          "aliases": ["Imo State Microfinance Bank"],
+          "bankCode": "090258",
+          "scCode": null
+        },
+        {
+          "name": "Imowo MFB",
+          "aliases": ["Imowo MFB"],
+          "bankCode": "090417",
+          "scCode": "50453"
+        },
+        {
+          "name": "IMSU MFB",
+          "aliases": ["IMSU MFB"],
+          "bankCode": "090670",
+          "scCode": null
+        },
+        {
+          "name": "INDULGE MFB",
+          "aliases": ["INDULGE MFB"],
+          "bankCode": "090772",
+          "scCode": "51392"
+        },
+        {
+          "name": "INEBA GOGO MFB",
+          "aliases": ["INEBA GOGO MFB"],
+          "bankCode": "090838",
+          "scCode": "51462"
+        },
+        {
+          "name": "Infinity Microfinance Bank",
+          "aliases": ["Infinity Microfinance Bank"],
+          "bankCode": "090157",
+          "scCode": "50457"
+        },
+        {
+          "name": "Insight MFB",
+          "aliases": ["Insight MFB"],
+          "bankCode": "090434",
+          "scCode": null
+        },
+        {
+          "name": "Investin MFB",
+          "aliases": ["Investin MFB"],
+          "bankCode": "091002",
+          "scCode": null
+        },
+        {
+          "name": "IRL Microfinance Bank",
+          "aliases": ["IRL Microfinance Bank"],
+          "bankCode": "090149",
+          "scCode": null
+        },
+        {
+          "name": "Isi-Uzo MFB",
+          "aliases": ["Isi-Uzo MFB"],
+          "bankCode": "090849",
+          "scCode": null
+        },
+        {
+          "name": "ISUA MFB",
+          "aliases": ["ISUA MFB"],
+          "bankCode": "090701",
+          "scCode": null
+        },
+        {
+          "name": "Isuofia MFB",
+          "aliases": ["Isuofia MFB"],
+          "bankCode": "090353",
+          "scCode": null
+        },
+        {
+          "name": "Kadpoly MFB",
+          "aliases": ["Kadpoly MFB"],
+          "bankCode": "090320",
+          "scCode": "50502"
+        },
+        {
+          "name": "Kadupe MFB",
+          "aliases": ["Kadupe MFB"],
+          "bankCode": "090669",
+          "scCode": null
+        },
+        {
+          "name": "Kaizen MFB",
+          "aliases": ["Kaizen MFB"],
+          "bankCode": "090800",
+          "scCode": null
+        },
+        {
+          "name": "KANOPOLY MFB",
+          "aliases": ["KANOPOLY MFB"],
+          "bankCode": "51308",
+          "scCode": "51308"
+        },
+        {
+          "name": "Katagum MFB",
+          "aliases": ["Katagum MFB"],
+          "bankCode": "090684",
+          "scCode": null
+        },
+        {
+          "name": "Katsu MFB",
+          "aliases": ["Katsu MFB"],
+          "bankCode": "090749",
+          "scCode": null
+        },
+        {
+          "name": "Kayi MFB",
+          "aliases": ["Kayi MFB"],
+          "bankCode": "090667",
+          "scCode": null
+        },
+        {
+          "name": "Kayvee Microfinance Bank",
+          "aliases": ["Kayvee Microfinance Bank"],
+          "bankCode": "090554",
+          "scCode": "5129"
+        },
+        {
+          "name": "KC Microfinance Bank",
+          "aliases": ["KC MFB"],
+          "bankCode": "090549",
+          "scCode": null
+        },
+        {
+          "name": "KCMB Microfinance Bank",
+          "aliases": ["KCMB Microfinance Bank"],
+          "bankCode": "090191",
+          "scCode": null
+        },
+        {
+          "name": "Kenechukwu MFB",
+          "aliases": ["Kenechukwu MFB"],
+          "bankCode": "090602",
+          "scCode": null
+        },
+        {
+          "name": "KKU MFB",
+          "aliases": ["KKU MFB"],
+          "bankCode": "090606",
+          "scCode": null
+        },
+        {
+          "name": "Koboweb MFB",
+          "aliases": ["Koboweb MFB"],
+          "bankCode": "090865",
+          "scCode": null
+        },
+        {
+          "name": "Koins MFB",
+          "aliases": ["Koins MFB"],
+          "bankCode": "090839",
+          "scCode": null
+        },
+        {
+          "name": "Kolisa MFB",
+          "aliases": ["Kolisa MFB"],
+          "bankCode": "090830",
+          "scCode": null
+        },
+        {
+          "name": "Kolomoni MFB",
+          "aliases": ["Kolomoni MFB"],
+          "bankCode": "090480",
+          "scCode": "899"
+        },
+        {
+          "name": "Kontagora Microfinance Bank",
+          "aliases": ["Kontagora Microfinance Bank"],
+          "bankCode": "090299",
+          "scCode": null
+        },
+        {
+          "name": "Kredi Money MFB LTD",
+          "aliases": ["Kredi Money MFB LTD"],
+          "bankCode": "090380",
+          "scCode": "50200"
+        },
+        {
+          "name": "Kuda MFB",
+          "aliases": ["Kuda Microfinance Bank"],
+          "bankCode": "090267",
+          "scCode": "50211"
+        },
+        {
+          "name": "La Fayette Microfinance Bank",
+          "aliases": ["La Fayette Microfinance Bank"],
+          "bankCode": "090155",
+          "scCode": null
+        },
+        {
+          "name": "Lapo Microfinance Bank",
+          "aliases": ["Lapo Microfinance Bank"],
+          "bankCode": "090177",
+          "scCode": null
+        },
+        {
+          "name": "Lavender Microfinance Bank",
+          "aliases": ["Lavender Microfinance Bank"],
+          "bankCode": "090271",
+          "scCode": null
+        },
+        {
+          "name": "Lawyers MFB",
+          "aliases": ["Lawyers MFB"],
+          "bankCode": "090724",
+          "scCode": null
+        },
+        {
+          "name": "Leadcity MFB",
+          "aliases": ["Leadcity MFB"],
+          "bankCode": "090650",
+          "scCode": null
+        },
+        {
+          "name": "Lemmy MFB",
+          "aliases": ["Lemmy MFB"],
+          "bankCode": "091003",
+          "scCode": null
+        },
+        {
+          "name": "Letshego Microfinance Bank",
+          "aliases": ["Letshego Microfinance Bank"],
+          "bankCode": "090420",
+          "scCode": null
+        },
+        {
+          "name": "Levite MFB",
+          "aliases": ["Levite MFB"],
+          "bankCode": "090731",
+          "scCode": null
+        },
+        {
+          "name": "LifeGate MFB",
+          "aliases": ["LifeGate MFB"],
+          "bankCode": "090557",
+          "scCode": null
+        },
+        {
+          "name": "Lightway MFB",
+          "aliases": ["Lightway MFB"],
+          "bankCode": "090807",
+          "scCode": null
+        },
+        {
+          "name": "Links MFB",
+          "aliases": ["Links MFB"],
+          "bankCode": "50549",
+          "scCode": "50549"
+        },
+        {
+          "name": "Liquidcrest MFB",
+          "aliases": ["Liquidcrest MFB"],
+          "bankCode": "090780",
+          "scCode": null
+        },
+        {
+          "name": "Loma Bank",
+          "aliases": ["Loma Bank"],
+          "bankCode": "090620",
+          "scCode": "50491"
+        },
+        {
+          "name": "Lovonus Microfinance Bank",
+          "aliases": ["Lovonus Microfinance Bank"],
+          "bankCode": "090265",
+          "scCode": null
+        },
+        {
+          "name": "Maal MFB",
+          "aliases": ["Maal MFB"],
+          "bankCode": "090764",
+          "scCode": "51444"
+        },
+        {
+          "name": "Madobi MFB",
+          "aliases": ["Madobi MFB"],
+          "bankCode": "090605",
+          "scCode": null
+        },
+        {
+          "name": "Maestro MFB",
+          "aliases": ["Maestro MFB"],
+          "bankCode": "090746",
+          "scCode": null
+        },
+        {
+          "name": "MAHFUZ MFB",
+          "aliases": ["MAHFUZ MFB"],
+          "bankCode": "090825",
+          "scCode": null
+        },
+        {
+          "name": "Mainland Microfinance Bank",
+          "aliases": ["Mainland Microfinance Bank"],
+          "bankCode": "090323",
+          "scCode": null
+        },
+        {
+          "name": "Mainstreet Microfinance Bank",
+          "aliases": ["Mainstreet Microfinance Bank"],
+          "bankCode": "090171",
+          "scCode": "014"
+        },
+        {
+          "name": "Malachy Microfinance Bank",
+          "aliases": ["Malachy Microfinance Bank"],
+          "bankCode": "090174",
+          "scCode": null
+        },
+        {
+          "name": "Manny Microfinance Bank",
+          "aliases": ["Manny Microfinance Bank"],
+          "bankCode": "090383",
+          "scCode": "51313"
+        },
+        {
+          "name": "Mautech Microfinance Bank",
+          "aliases": ["Mautech Microfinance Bank"],
+          "bankCode": "090423",
+          "scCode": null
+        },
+        {
+          "name": "Maxitrust MFB",
+          "aliases": ["Maxitrust MFB"],
+          "bankCode": "090843",
+          "scCode": null
+        },
+        {
+          "name": "Mayden MFB",
+          "aliases": ["Mayden MFB"],
+          "bankCode": "090854",
+          "scCode": null
+        },
+        {
+          "name": "Mayfair Microfinance Bank",
+          "aliases": ["Mayfair Microfinance Bank"],
+          "bankCode": "090321",
+          "scCode": "50563"
+        },
+        {
+          "name": "Mega Microfinance Bank",
+          "aliases": ["Mega Microfinance Bank"],
+          "bankCode": "090824",
+          "scCode": "50570"
+        },
+        {
+          "name": "Memento MFB",
+          "aliases": ["Memento MFB"],
+          "bankCode": "090867",
+          "scCode": null
+        },
+        {
+          "name": "Mercury MFB",
+          "aliases": ["Mercury MFB"],
+          "bankCode": "090589",
+          "scCode": null
+        },
+        {
+          "name": "Mia MFB",
+          "aliases": ["Mia MFB"],
+          "bankCode": "090859",
+          "scCode": null
+        },
+        {
+          "name": "Microbiz MFB",
+          "aliases": ["Microbiz MFB"],
+          "bankCode": "090587",
+          "scCode": null
+        },
+        {
+          "name": "Mint MFB",
+          "aliases": ["MINT-FINEX MFB"],
+          "bankCode": "090763",
+          "scCode": "50304"
+        },
+        {
+          "name": "Mkobo MFB",
+          "aliases": ["Mkobo MFB", "Mkobo"],
+          "bankCode": "090455",
+          "scCode": null
+        },
+        {
+          "name": "Model MFB",
+          "aliases": ["Model MFB"],
+          "bankCode": "090775",
+          "scCode": null
+        },
+        {
+          "name": "Moneytronics MFB",
+          "aliases": ["Moneytronics MFB"],
+          "bankCode": "090692",
+          "scCode": null
+        },
+        {
+          "name": "Monieking MFB",
+          "aliases": ["Monieking MFB"],
+          "bankCode": "090416",
+          "scCode": "000"
+        },
+        {
+          "name": "Moniepoint MFB",
+          "aliases": ["TeamApt"],
+          "bankCode": "090405",
+          "scCode": "50515"
+        },
+        {
+          "name": "Moremonee MFB",
+          "aliases": ["Moremonee MFB"],
+          "bankCode": "090685",
+          "scCode": null
+        },
+        {
+          "name": "MICHAEL OKPARA UNIAGRIC MFB",
+          "aliases": ["MOUA MFB"],
+          "bankCode": "090659",
+          "scCode": null
+        },
+        {
+          "name": "Movasco-op MFB",
+          "aliases": ["Movasco-op MFB"],
+          "bankCode": "090979",
+          "scCode": null
+        },
+        {
+          "name": "MUTUAL BENEFITS MICROFINANCE BANK",
+          "aliases": ["MUTUAL BENEFITS MICROFINANCE BANK"],
+          "bankCode": "090190",
+          "scCode": null
+        },
+        {
+          "name": "NAF MFB",
+          "aliases": ["NAF MFB"],
+          "bankCode": "090740",
+          "scCode": null
+        },
+        {
+          "name": "Nasarawa MFB",
+          "aliases": ["Nasarawa MFB"],
+          "bankCode": "090349",
+          "scCode": null
+        },
+        {
+          "name": "NDCC MICROFINANCE BANK",
+          "aliases": ["NDCC MICROFINANCE BANK"],
+          "bankCode": "090679",
+          "scCode": null
+        },
+        {
+          "name": "Neptune MFB",
+          "aliases": ["Neptune MFB"],
+          "bankCode": "090329",
+          "scCode": null
+        },
+        {
+          "name": "NET MICROFINANCE BANK",
+          "aliases": ["NET MICROFINANCE BANK"],
+          "bankCode": "090675",
+          "scCode": "51361"
+        },
+        {
+          "name": "New Dawn MFB",
+          "aliases": ["New Dawn MFB"],
+          "bankCode": "090205",
+          "scCode": null
+        },
+        {
+          "name": "Nexton MFB",
+          "aliases": ["Nexton MFB"],
+          "bankCode": "090818",
+          "scCode": null
+        },
+        {
+          "name": "Nigerian Navy Microfinance Bank Limited",
+          "aliases": ["Nigerian Navy Microfinance Bank Limited"],
+          "bankCode": "090263",
+          "scCode": "51142"
+        },
+        {
+          "name": "Nigerian Prisons MFB",
+          "aliases": ["Nigerian Prisons MFB"],
+          "bankCode": "090505",
+          "scCode": null
+        },
+        {
+          "name": "NIRSAL MICROFINANCE",
+          "aliases": ["NIRSAL MICROFINANCE"],
+          "bankCode": "51304",
+          "scCode": "51304"
+        },
+        {
+          "name": "Nomase MFB",
+          "aliases": ["Nomase MFB"],
+          "bankCode": "090736",
+          "scCode": null
+        },
+        {
+          "name": "Nombank MFB",
+          "aliases": ["Nombank MFB"],
+          "bankCode": "090645",
+          "scCode": "50072"
+        },
+        {
+          "name": "Noun MFB",
+          "aliases": ["Noun MFB"],
+          "bankCode": "090822",
+          "scCode": null
+        },
+        {
+          "name": "Novel MFB",
+          "aliases": ["Novel MFB"],
+          "bankCode": "090863",
+          "scCode": null
+        },
+        {
+          "name": "Novus MFB",
+          "aliases": ["Novus MFB"],
+          "bankCode": "090734",
+          "scCode": "51371"
+        },
+        {
+          "name": "NPF MICROFINANCE BANK",
+          "aliases": ["NPF MICROFINANCE BANK"],
+          "bankCode": "50629",
+          "scCode": "50629"
+        },
+        {
+          "name": "NRI MFB",
+          "aliases": ["NRI MFB"],
+          "bankCode": "090984",
+          "scCode": null
+        },
+        {
+          "name": "NSUK MFB",
+          "aliases": ["NSUK MICROFINANACE BANK"],
+          "bankCode": "090491",
+          "scCode": "51261"
+        },
+
+        {
+          "name": "Nsukka MFB",
+          "aliases": ["Nsukka MFB"],
+          "bankCode": "090356",
+          "scCode": null
+        },
+        {
+          "name": "Nuggets MFB",
+          "aliases": ["Nuggets MFB"],
+          "bankCode": "090676",
+          "scCode": null
+        },
+        {
+          "name": "Nwannegadi MFB",
+          "aliases": ["Nwannegadi MFB"],
+          "bankCode": "090399",
+          "scCode": null
+        },
+        {
+          "name": "Oba MFB",
+          "aliases": ["Oba MFB"],
+          "bankCode": "090981",
+          "scCode": null
+        },
+        {
+          "name": "OBELEDU MFB",
+          "aliases": ["OBELEDU MFB"],
+          "bankCode": "090755",
+          "scCode": null
+        },
+        {
+          "name": "Obollo MFB",
+          "aliases": ["Obollo MFB"],
+          "bankCode": "090810",
+          "scCode": null
+        },
+        {
+          "name": "Oche MFB",
+          "aliases": ["Oche MFB"],
+          "bankCode": "090333",
+          "scCode": null
+        },
+        {
+          "name": "Octopus MFB",
+          "aliases": ["Octopus MFB"],
+          "bankCode": "090576",
+          "scCode": null
+        },
+        {
+          "name": "Odoakpu MFB",
+          "aliases": ["Odoakpu MFB"],
+          "bankCode": "090654",
+          "scCode": null
+        },
+        {
+          "name": "OGBERURU MFB",
+          "aliases": ["OGBERURU MFB"],
+          "bankCode": "090738",
+          "scCode": null
+        },
+        {
+          "name": "Ogige MFB",
+          "aliases": ["Ogige MFB"],
+          "bankCode": "090739",
+          "scCode": null
+        },
+        {
+          "name": "Ohha MFB",
+          "aliases": ["Ohha MFB"],
+          "bankCode": "090626",
+          "scCode": null
+        },
+        {
+          "name": "OK MFB",
+          "aliases": ["OK MFB"],
+          "bankCode": "090567",
+          "scCode": null
+        },
+        {
+          "name": "Okada MFB",
+          "aliases": ["Okada MFB"],
+          "bankCode": "090996",
+          "scCode": null
+        },
+        {
+          "name": "Okengwe MFB",
+          "aliases": ["Okengwe MFB"],
+          "bankCode": "090646",
+          "scCode": null
+        },
+        {
+          "name": "OKO MFB",
+          "aliases": ["OKO MFB"],
+          "bankCode": "090348",
+          "scCode": null
+        },
+        {
+          "name": "Okpe MFB",
+          "aliases": ["Okpe MFB"],
+          "bankCode": "090855",
+          "scCode": null
+        },
+        {
+          "name": "OKWO-OHA MFB",
+          "aliases": ["OKWO-OHA MFB"],
+          "bankCode": "090752",
+          "scCode": null
+        },
+        {
+          "name": "Olabisi Onabanjo University Microfinance Bank",
+          "aliases": ["Olabisi Onabanjo University Microfinance Bank"],
+          "bankCode": "090272",
+          "scCode": "50689"
+        },
+        {
+          "name": "Old Shoreham MFB",
+          "aliases": ["Old Shoreham MFB"],
+          "bankCode": "090410",
+          "scCode": null
+        },
+        {
+          "name": "Olive MFB",
+          "aliases": ["Olive MFB"],
+          "bankCode": "090696",
+          "scCode": null
+        },
+        {
+          "name": "Olomu Aperan MFB",
+          "aliases": ["Olomu Aperan MFB"],
+          "bankCode": "090852",
+          "scCode": null
+        },
+        {
+          "name": "OLUCHUKWU MICROFINANCE BANK LTD",
+          "aliases": ["OLUCHUKWU MICROFINANCE BANK LTD"],
+          "bankCode": "50697",
+          "scCode": "50697"
+        },
+        {
+          "name": "Omak MFB",
+          "aliases": ["Omak MFB"],
+          "bankCode": "090700",
+          "scCode": null
+        },
+        {
+          "name": "Oraukwu MFB",
+          "aliases": ["Oraukwu MFB"],
+          "bankCode": "090492",
+          "scCode": null
+        },
+        {
+          "name": "OSANTA MFB",
+          "aliases": ["OSANTA MFB"],
+          "bankCode": "090750",
+          "scCode": null
+        },
+        {
+          "name": "Oscotech MFB",
+          "aliases": ["Oscotech MFB"],
+          "bankCode": "090396",
+          "scCode": null
+        },
+        {
+          "name": "Osomhe MFB",
+          "aliases": ["Osomhe MFB"],
+          "bankCode": "090715",
+          "scCode": null
+        },
+        {
+          "name": "Otech MFB",
+          "aliases": ["Otech MFB"],
+          "bankCode": "090580",
+          "scCode": null
+        },
+        {
+          "name": "Otuo MFB",
+          "aliases": ["Otuo MFB"],
+          "bankCode": "090542",
+          "scCode": null
+        },
+        {
+          "name": "Ourpass MFB",
+          "aliases": ["Ourpass MFB"],
+          "bankCode": "090767",
+          "scCode": null
+        },
+        {
+          "name": "Ours MFB",
+          "aliases": ["Ours MFB"],
+          "bankCode": "090346",
+          "scCode": null
+        },
+        {
+          "name": "P-UP MFB",
+          "aliases": ["P-UP MFB"],
+          "bankCode": "090992",
+          "scCode": null
+        },
+        {
+          "name": "Pact MFB",
+          "aliases": ["Pact MFB"],
+          "bankCode": "090846",
+          "scCode": null
+        },
+        {
+          "name": "PATHFINDER MICROFINANCE BANK LIMITED",
+          "aliases": ["PATHFINDER MICROFINANCE BANK LIMITED"],
+          "bankCode": "090680",
+          "scCode": null
+        },
+        {
+          "name": "Patrickgold MFB",
+          "aliases": ["Patrickgold MFB"],
+          "bankCode": "090317",
+          "scCode": null
+        },
+        {
+          "name": "Payrep MFB",
+          "aliases": ["Payrep MFB"],
+          "bankCode": "090823",
+          "scCode": null
+        },
+        {
+          "name": "Paystack MFB",
+          "aliases": ["Paystack MFB"],
+          "bankCode": "090986",
+          "scCode": "51457"
+        },
+        {
+          "name": "Peace Microfinance Bank",
+          "aliases": ["Peace Microfinance Bank"],
+          "bankCode": "090402",
+          "scCode": "50743"
+        },
+        {
+          "name": "PECANTRUST MICROFINANCE BANK LIMITED",
+          "aliases": ["PECANTRUST MICROFINANCE BANK LIMITED"],
+          "bankCode": "090137",
+          "scCode": "51226"
+        },
+        {
+          "name": "Pennywise MFB",
+          "aliases": ["Pennywise MFB"],
+          "bankCode": "090196",
+          "scCode": null
+        },
+        {
+          "name": "Pentecost MFB",
+          "aliases": ["Pentecost MFB"],
+          "bankCode": "090861",
+          "scCode": null
+        },
+        {
+          "name": "Personal Trust MFB",
+          "aliases": ["Personal Trust MFB"],
+          "bankCode": "51146",
+          "scCode": "51146"
+        },
+        {
+          "name": "Petra Mircofinance Bank Plc",
+          "aliases": ["Petra Mircofinance Bank Plc"],
+          "bankCode": "50746",
+          "scCode": "50746"
+        },
+        {
+          "name": "Pettysave MFB",
+          "aliases": ["Pettysave MFB"],
+          "bankCode": "090768",
+          "scCode": "MFB51452"
+        },
+        {
+          "name": "Platinum MFB",
+          "aliases": ["Platinum MFB"],
+          "bankCode": "090993",
+          "scCode": null
+        },
+        {
+          "name": "Plug MFB",
+          "aliases": ["Plug MFB"],
+          "bankCode": "090858",
+          "scCode": null
+        },
+        {
+          "name": "POINTONE MFB",
+          "aliases": ["POINTONE MFB"],
+          "bankCode": "090754",
+          "scCode": null
+        },
+        {
+          "name": "Polyibadan MFB",
+          "aliases": ["Polyibadan MFB"],
+          "bankCode": "090534",
+          "scCode": null
+        },
+        {
+          "name": "Polyunwana MFB",
+          "aliases": ["Polyunwana MFB"],
+          "bankCode": "50864",
+          "scCode": "50864"
+        },
+        {
+          "name": "Prestige MFB",
+          "aliases": ["Prestige MFB"],
+          "bankCode": "090274",
+          "scCode": null
+        },
+        {
+          "name": "Pristine Divitis MFB",
+          "aliases": ["Pristine Divitis MFB"],
+          "bankCode": "090499",
+          "scCode": null
+        },
+        {
+          "name": "Prodigy MFB",
+          "aliases": ["Prodigy MFB"],
+          "bankCode": "090784",
+          "scCode": null
+        },
+        {
+          "name": "Prospa Capital Microfinance Bank",
+          "aliases": ["Prospa Capital Microfinance Bank"],
+          "bankCode": "090495",
+          "scCode": null
+        },
+        {
+          "name": "Prudent Bank",
+          "aliases": ["Prudent Bank"],
+          "bankCode": "090690",
+          "scCode": null
+        },
+        {
+          "name": "Pyramid MFB",
+          "aliases": ["Pyramid MFB"],
+          "bankCode": "090657",
+          "scCode": null
+        },
+        {
+          "name": "Qube MFB",
+          "aliases": ["Qube MFB"],
+          "bankCode": "090569",
+          "scCode": null
+        },
+        {
+          "name": "QuickFund MFB",
+          "aliases": ["QuickFund MFB"],
+          "bankCode": "090850",
+          "scCode": "51293"
+        },
+        {
+          "name": "RANDALPHA MICROFINANCE BANK",
+          "aliases": ["RANDALPHA MICROFINANCE BANK"],
+          "bankCode": "090496",
+          "scCode": null
+        },
+        {
+          "name": "Rank MFB",
+          "aliases": ["Rank MFB"],
+          "bankCode": "090860",
+          "scCode": null
+        },
+        {
+          "name": "Rayyan MFB",
+          "aliases": ["Rayyan MFB"],
+          "bankCode": "090616",
+          "scCode": null
+        },
+        {
+          "name": "REHOBOTH MICROFINANCE BANK",
+          "aliases": ["REHOBOTH MICROFINANCE BANK"],
+          "bankCode": "090463",
+          "scCode": "50761"
+        },
+        {
+          "name": "Reliance MFB",
+          "aliases": ["Reliance MFB"],
+          "bankCode": "090173",
+          "scCode": null
+        },
+        {
+          "name": "Renmoney MFB",
+          "aliases": ["Renmoney MFB", "Renmoney"],
+          "bankCode": "090198",
+          "scCode": null
+        },
+        {
+          "name": "Rephidim Microfinance Bank",
+          "aliases": ["Rephidim Microfinance Bank"],
+          "bankCode": "50994",
+          "scCode": "50994"
+        },
+        {
+          "name": "Retrust Mfb",
+          "aliases": ["Retrust Mfb"],
+          "bankCode": "090766",
+          "scCode": "51375"
+        },
+        {
+          "name": "Revelation MFB",
+          "aliases": ["Revelation MFB"],
+          "bankCode": "090666",
+          "scCode": null
+        },
+        {
+          "name": "Rex MFB",
+          "aliases": ["Rex MFB"],
+          "bankCode": "090449",
+          "scCode": null
+        },
+        {
+          "name": "Ric MFB",
+          "aliases": ["Ric MFB"],
+          "bankCode": "090720",
+          "scCode": null
+        },
+        {
+          "name": "Rigo Microfinance Bank Limited",
+          "aliases": ["Rigo Microfinance Bank Limited"],
+          "bankCode": "51286",
+          "scCode": "51286"
+        },
+        {
+          "name": "Rima Growth Pathway MFB",
+          "aliases": ["Rima Growth Pathway MFB"],
+          "bankCode": "090515",
+          "scCode": null
+        },
+        {
+          "name": "Rimin Gado MFB",
+          "aliases": ["Rimin Gado MFB"],
+          "bankCode": "090713",
+          "scCode": null
+        },
+        {
+          "name": "ROCKSHIELD MICROFINANCE BANK",
+          "aliases": ["ROCKSHIELD MICROFINANCE BANK"],
+          "bankCode": "090547",
+          "scCode": "50767"
+        },
+        {
+          "name": "Royal Blue MFB",
+          "aliases": ["Royal Blue MFB"],
+          "bankCode": "090622",
+          "scCode": null
+        },
+        {
+          "name": "Royal Excellent MFB",
+          "aliases": ["Royal Excellent MFB"],
+          "bankCode": "090990",
+          "scCode": null
+        },
+        {
+          "name": "Royal Exchange MFB",
+          "aliases": ["Royal Exchange MFB"],
+          "bankCode": "090138",
+          "scCode": null
+        },
+        {
+          "name": "RSU MFB",
+          "aliases": ["RSU MFB"],
+          "bankCode": "090535",
+          "scCode": null
+        },
+        {
+          "name": "Rubies MFB",
+          "aliases": ["Rubies MFB", "Rubies Bank", "Rubies Microfinance Bank"],
+          "bankCode": "090175",
+          "scCode": "125"
+        },
+        {
+          "name": "Run MFB",
+          "aliases": ["Run MFB"],
+          "bankCode": "090771",
+          "scCode": null
+        },
+        {
+          "name": "Sabi MFB",
+          "aliases": ["Sabi MFB"],
+          "bankCode": "090727",
+          "scCode": null
+        },
+        {
+          "name": "Safe Haven MFB",
+          "aliases": ["Safe Haven MFB"],
+          "bankCode": "090286",
+          "scCode": "51113"
+        },
+        {
+          "name": "Sagamu MFB",
+          "aliases": ["Sagamu MFB"],
+          "bankCode": "090140",
+          "scCode": null
+        },
+        {
+          "name": "Seedvest MFB",
+          "aliases": ["Seedvest MFB"],
+          "bankCode": "090369",
+          "scCode": null
+        },
+        {
+          "name": "Shalom MFB",
+          "aliases": ["Shalom MFB"],
+          "bankCode": "090502",
+          "scCode": null
+        },
+        {
+          "name": "Shanono MFB",
+          "aliases": ["Shanono MFB"],
+          "bankCode": "090748",
+          "scCode": null
+        },
+        {
+          "name": "Shepherd Trust MFB",
+          "aliases": ["Shepherd Trust MFB"],
+          "bankCode": "090401",
+          "scCode": null
+        },
+        {
+          "name": "Shield MFB",
+          "aliases": ["Shield MFB"],
+          "bankCode": "50582",
+          "scCode": "50582"
+        },
+        {
+          "name": "Sincere MFB",
+          "aliases": ["Sincere MFB"],
+          "bankCode": "090339",
+          "scCode": null
+        },
+        {
+          "name": "Sofritrust MFB",
+          "aliases": ["Sofritrust MFB"],
+          "bankCode": "090435",
+          "scCode": null
+        },
+        {
+          "name": "Solid Allianze MFB",
+          "aliases": ["Solid Allianze MFB"],
+          "bankCode": "090506",
+          "scCode": "51062"
+        },
+        {
+          "name": "Solid Rock MFB",
+          "aliases": ["Solid Rock MFB"],
+          "bankCode": "50800",
+          "scCode": "50800"
+        },
+        {
+          "name": "Soroman MFB",
+          "aliases": ["Soroman MFB"],
+          "bankCode": "090769",
+          "scCode": null
+        },
+        {
+          "name": "Sosa MFB",
+          "aliases": ["Sosa MFB"],
+          "bankCode": "090836",
+          "scCode": null
+        },
+        {
+          "name": "Source MFB",
+          "aliases": ["Source MFB"],
+          "bankCode": "090641",
+          "scCode": null
+        },
+        {
+          "name": "Sparkle MFB",
+          "aliases": ["Sparkle Microfinance Bank"],
+          "bankCode": "090325",
+          "scCode": "51310"
+        },
+        {
+          "name": "Spectrum MFB",
+          "aliases": ["Spectrum MFB"],
+          "bankCode": "090436",
+          "scCode": null
+        },
+        {
+          "name": "Springfield Microfinance Bank",
+          "aliases": ["Springfield Microfinance Bank"],
+          "bankCode": "090806",
+          "scCode": "51429"
+        },
+        {
+          "name": "Springville MFB",
+          "aliases": ["Springville MFB"],
+          "bankCode": "090786",
+          "scCode": null
+        },
+        {
+          "name": "Stable MFB",
+          "aliases": ["Stable MFB"],
+          "bankCode": "090833",
+          "scCode": null
+        },
+        {
+          "name": "STANFORD MFB",
+          "aliases": ["STANFORD MICROFINANCE BANK"],
+          "bankCode": "090162",
+          "scCode": null
+        },
+        {
+          "name": "STATESIDE MFB",
+          "aliases": ["STATESIDE MICROFINANCE BANK"],
+          "bankCode": "50809",
+          "scCode": "50809"
+        },
+        {
+          "name": "Stellas MFB",
+          "aliases": ["Stellas Microfinance Bank"],
+          "bankCode": "090262",
+          "scCode": "51253"
+        },
+        {
+          "name": "Strait Sahara MFB",
+          "aliases": ["Strait Sahara Microfinance Bank"],
+          "bankCode": "090985",
+          "scCode": null
+        },
+        {
+          "name": "Sulspap MFB",
+          "aliases": ["Sulspap Microfinance Bank"],
+          "bankCode": "090305",
+          "scCode": null
+        },
+        {
+          "name": "Suntop MFB",
+          "aliases": ["Suntop Microfinance Bank"],
+          "bankCode": "090644",
+          "scCode": null
+        },
+        {
+          "name": "Support MFB",
+          "aliases": ["Support Microfinance Bank"],
+          "bankCode": "090446",
+          "scCode": null
+        },
+        {
+          "name": "Supreme MFB",
+          "aliases": ["Supreme Microfinance Bank"],
+          "bankCode": "090564",
+          "scCode": "50968"
+        },
+        {
+          "name": "Sure Anchor MFB",
+          "aliases": ["Sure Anchor Microfinance Bank"],
+          "bankCode": "090728",
+          "scCode": null
+        },
+        {
+          "name": "SWIFT TRUST MFB",
+          "aliases": ["SWIFT TRUST Microfinance Bank"],
+          "bankCode": "090757",
+          "scCode": null
+        },
+        {
+          "name": "Sycamore MFB",
+          "aliases": ["Sycamore Microfinance Bank"],
+          "bankCode": "090827",
+          "scCode": "51056"
+        },
+        {
+          "name": "TAJ Pinspay",
+          "aliases": ["TAJ Pinspay"],
+          "bankCode": "080002",
+          "scCode": null
+        },
+        {
+          "name": "Teerus MFB",
+          "aliases": ["Teerus Microfinance Bank"],
+          "bankCode": "090991",
+          "scCode": null
+        },
+        {
+          "name": "Tellerone FI MFB",
+          "aliases": ["Tellerone FI Microfinance Bank"],
+          "bankCode": "090788",
+          "scCode": null
+        },
+        {
+          "name": "TENN MFB",
+          "aliases": ["TENN Microfinance Bank"],
+          "bankCode": "090716",
+          "scCode": null
+        },
+        {
+          "name": "The Millennium MFB",
+          "aliases": ["The Millennium Microfinance Bank"],
+          "bankCode": "090711",
+          "scCode": null
+        },
+        {
+          "name": "Think Finance MFB",
+          "aliases": ["Think Finance Microfinance Bank"],
+          "bankCode": "677",
+          "scCode": "677"
+        },
+        {
+          "name": "TOFA MFB",
+          "aliases": ["TOFA MFB"],
+          "bankCode": "090714",
+          "scCode": null
+        },
+        {
+          "name": "Toprate MFB",
+          "aliases": ["Toprate MFB"],
+          "bankCode": "090801",
+          "scCode": null
+        },
+        {
+          "name": "TransPay MFB",
+          "aliases": ["TransPay MFB"],
+          "bankCode": "090708",
+          "scCode": null
+        },
+        {
+          "name": "Treasures MFB",
+          "aliases": ["Treasures Microfinance Bank"],
+          "bankCode": "090663",
+          "scCode": null
+        },
+        {
+          "name": "TRUSTBANC J6 MFB",
+          "aliases": ["TRUSTBANC J6 MICROFINANCE BANK"],
+          "bankCode": "51118",
+          "scCode": "51118"
+        },
+        {
+          "name": "U & C MFB",
+          "aliases": ["U And C MFB", "U&C Microfinance Bank Ltd"],
+          "bankCode": "090315",
+          "scCode": "50840"
+        },
+        {
+          "name": "UBJ MFB",
+          "aliases": ["UBJ MFB"],
+          "bankCode": "090762",
+          "scCode": null
+        },
+        {
+          "name": "UCEE MFB",
+          "aliases": ["UCEE Microfinance Bank"],
+          "bankCode": "090706",
+          "scCode": null
+        },
+        {
+          "name": "UDA MFB",
+          "aliases": ["UDA MFB"],
+          "bankCode": "090403",
+          "scCode": null
+        },
+        {
+          "name": "Uforo MFB",
+          "aliases": ["Uforo MFB"],
+          "bankCode": "090869",
+          "scCode": null
+        },
+        {
+          "name": "Uga MFB",
+          "aliases": ["Uga MFB"],
+          "bankCode": "090782",
+          "scCode": null
+        },
+        {
+          "name": "Uhuru MFB",
+          "aliases": ["Uhuru MFB"],
+          "bankCode": "51322",
+          "scCode": "51322"
+        },
+        {
+          "name": "Ukpor MFB",
+          "aliases": ["Ukpor MFB"],
+          "bankCode": "090820",
+          "scCode": null
+        },
+        {
+          "name": "Ultimate MFB",
+          "aliases": ["Ultimate MFB"],
+          "bankCode": "090776",
+          "scCode": null
+        },
+        {
+          "name": "Ultraviolet Microfinance Bank",
+          "aliases": ["Ultraviolet Microfinance Bank"],
+          "bankCode": "090781",
+          "scCode": "51080"
+        },
+        {
+          "name": "UMUCHINEMERE PROCREDIT MFB",
+          "aliases": ["UMUCHINEMERE PROCREDIT MFB"],
+          "bankCode": "090514",
+          "scCode": null
+        },
+        {
+          "name": "Umuchukwu Bank",
+          "aliases": ["Umuchukwu Bank"],
+          "bankCode": "090652",
+          "scCode": null
+        },
+        {
+          "name": "Umunnachi MFB",
+          "aliases": ["Umunnachi MFB"],
+          "bankCode": "090510",
+          "scCode": null
+        },
+        {
+          "name": "Umunri MFB",
+          "aliases": ["Umunri MFB"],
+          "bankCode": "090808",
+          "scCode": null
+        },
+        {
+          "name": "Umuoji MFB",
+          "aliases": ["Umuoji MFB"],
+          "bankCode": "090814",
+          "scCode": null
+        },
+        {
+          "name": "Unaab Microfinance Bank Limited",
+          "aliases": ["Unaab Microfinance Bank Limited"],
+          "bankCode": "50870",
+          "scCode": "50870"
+        },
+        {
+          "name": "UNIABUJA MFB",
+          "aliases": ["UNIABUJA MFB"],
+          "bankCode": "090778",
+          "scCode": "51447"
+        },
+        {
+          "name": "Unical MFB",
+          "aliases": ["Unical MFB"],
+          "bankCode": "50871",
+          "scCode": "50871"
+        },
+        {
+          "name": "Unilag Microfinance Bank",
+          "aliases": ["Unilag Microfinance Bank"],
+          "bankCode": "090452",
+          "scCode": "51316"
+        },
+        {
+          "name": "UNIMAID MICROFINANCE BANK",
+          "aliases": ["UNIMAID MICROFINANCE BANK"],
+          "bankCode": "50875",
+          "scCode": "50875"
+        },
+        {
+          "name": "UNIUYO Microfinance Bank Ltd",
+          "aliases": ["UNIUYO Microfinance Bank Ltd"],
+          "bankCode": "090338",
+          "scCode": "50880"
+        },
+        {
+          "name": "Unubi MFB",
+          "aliases": ["Unubi MFB"],
+          "bankCode": "090719",
+          "scCode": null
+        },
+        {
+          "name": "URE MFB",
+          "aliases": ["URE MFB"],
+          "bankCode": "090619",
+          "scCode": null
+        },
+        {
+          "name": "UVUOMA MFB",
+          "aliases": ["UVUOMA MFB"],
+          "bankCode": "090765",
+          "scCode": null
+        },
+        {
+          "name": "Uzondu MFB",
+          "aliases": ["Uzondu Microfinance Bank Awka Anambra State"],
+          "bankCode": "090453",
+          "scCode": "50894"
+        },
+        {
+          "name": "VFD Microfinance Bank Limited",
+          "aliases": ["VFD MFB"],
+          "bankCode": "090110",
+          "scCode": "566"
+        },
+        {
+          "name": "Victory MFB",
+          "aliases": ["Victory MFB"],
+          "bankCode": "090813",
+          "scCode": null
+        },
+        {
+          "name": "Vista MFB",
+          "aliases": ["Vista MFB"],
+          "bankCode": "090787",
+          "scCode": null
+        },
+        {
+          "name": "Waila MFB",
+          "aliases": ["Waila MFB"],
+          "bankCode": "090829",
+          "scCode": null
+        },
+        {
+          "name": "Wallet MFB",
+          "aliases": ["Wallet MFB"],
+          "bankCode": "090805",
+          "scCode": null
+        },
+        {
+          "name": "Waya Microfinance Bank",
+          "aliases": ["Waya Microfinance Bank"],
+          "bankCode": "090590",
+          "scCode": "51355"
+        },
+        {
+          "name": "WE MFB",
+          "aliases": ["WE MFB"],
+          "bankCode": "090989",
+          "scCode": null
+        },
+        {
+          "name": "Weston Charis MFB",
+          "aliases": ["Weston Charis MFB"],
+          "bankCode": "090741",
+          "scCode": "51386"
+        },
+        {
+          "name": "Wudil MFB",
+          "aliases": ["Wudil MFB"],
+          "bankCode": "090253",
+          "scCode": null
+        },
+        {
+          "name": "Yes MFB",
+          "aliases": ["Yes MFB"],
+          "bankCode": "090142",
+          "scCode": "594"
+        },
+        {
+          "name": "Zain MFB",
+          "aliases": ["Zain MFB"],
+          "bankCode": "090976",
+          "scCode": null
+        },
+        {
+          "name": "Zefa MFB",
+          "aliases": ["Zefa MFB"],
+          "bankCode": "090747",
+          "scCode": null
+        },
+        {
+          "name": "Zitra MFB",
+          "aliases": ["Zitra MFB"],
+          "bankCode": "090718",
+          "scCode": "51373"
+        }
+      ],
+      "mobile_money": [
+        {
+          "name": "Access Mobile",
+          "aliases": ["ACCESS MOBILE"],
+          "bankCode": "323",
+          "scCode": "323"
+        },
+        {
+          "name": "Access Money",
+          "aliases": ["Access Money", "Access Bank PSB"],
+          "bankCode": "927",
+          "scCode": "927"
+        },
+        {
+          "name": "Access Yello & Beta",
+          "aliases": ["Access Yello & Beta"],
+          "bankCode": "100052",
+          "scCode": null
+        },
+        {
+          "name": "ALAT by WEMA",
+          "aliases": ["ALAT by WEMA", "ALAT", "Wema Bank"],
+          "bankCode": "035A",
+          "scCode": "035A"
+        },
+        {
+          "name": "Betastack Technologies",
+          "aliases": ["Betastack Technologies"],
+          "bankCode": "110074",
+          "scCode": null
+        },
+        {
+          "name": "Carbon",
+          "aliases": ["Carbon", "Carbon MFB", "OneFi", "Paylater"],
+          "bankCode": "100026",
+          "scCode": "565"
+        },
+        {
+          "name": "Cellulant",
+          "aliases": ["Cellulant"],
+          "bankCode": "919",
+          "scCode": "919"
+        },
+        {
+          "name": "Chams Mobile",
+          "aliases": ["Chams Mobile"],
+          "bankCode": "929",
+          "scCode": "929"
+        },
+        {
+          "name": "Contec Global (NowNow)",
+          "aliases": ["Contec Global (NowNow)"],
+          "bankCode": "100032",
+          "scCode": "100032"
+        },
+        {
+          "name": "Eartholeum",
+          "aliases": ["Eartholeum"],
+          "bankCode": "935",
+          "scCode": "935"
+        },
+        {
+          "name": "Ecobank Mobile",
+          "aliases": ["Ecobank Mobile"],
+          "bankCode": "307",
+          "scCode": "307"
+        },
+        {
+          "name": "Ecobank Xpress Account",
+          "aliases": ["Ecobank Xpress Account"],
+          "bankCode": "100008",
+          "scCode": "922"
+        },
+        {
+          "name": "eTRANZACT",
+          "aliases": ["eTRANZACT NG"],
+          "bankCode": "100006",
+          "scCode": "920"
+        },
+        {
+          "name": "Eyowo",
+          "aliases": ["Eyowo", "Eyowo MFB"],
+          "bankCode": "090328",
+          "scCode": "50126"
+        },
+        {
+          "name": "FBN Mobile",
+          "aliases": ["First Bank Mobile"],
+          "bankCode": "309",
+          "scCode": "309"
+        },
+        {
+          "name": "FCMB Easy Account",
+          "aliases": ["FCMB Easy Account"],
+          "bankCode": "100031",
+          "scCode": null
+        },
+        {
+          "name": "FETS",
+          "aliases": ["FETS"],
+          "bankCode": "915",
+          "scCode": "915"
+        },
+        {
+          "name": "Fidelity Mobile",
+          "aliases": ["Fidelity Mobile"],
+          "bankCode": "933",
+          "scCode": "933"
+        },
+        {
+          "name": "FirstMonie Wallet",
+          "aliases": ["FirstMonie Wallet"],
+          "bankCode": "100014",
+          "scCode": "928"
+        },
+        {
+          "name": "Flutterwave",
+          "aliases": ["Flutterwave"],
+          "bankCode": "110002",
+          "scCode": null
+        },
+        {
+          "name": "Fortis Mobile",
+          "aliases": ["Fortis Mobile"],
+          "bankCode": "100016",
+          "scCode": "930"
+        },
+        {
+          "name": "GoMoney",
+          "aliases": ["GoMoney"],
+          "bankCode": "100022",
+          "scCode": "100022"
+        },
+        {
+          "name": "GT Mobile",
+          "aliases": ["GT Mobile"],
+          "bankCode": "923",
+          "scCode": "923"
+        },
+        {
+          "name": "GTBank Mobile Money",
+          "aliases": ["GTBank Mobile Money"],
+          "bankCode": "315",
+          "scCode": "315"
+        },
+        {
+          "name": "Hedonmark",
+          "aliases": ["Hedonmark"],
+          "bankCode": "931",
+          "scCode": "931"
+        },
+        {
+          "name": "Innovectives Kesh",
+          "aliases": ["Innovectives Kesh"],
+          "bankCode": "100029",
+          "scCode": null
+        },
+        {
+          "name": "Intellifin",
+          "aliases": ["Intellifin"],
+          "bankCode": "941",
+          "scCode": "941"
+        },
+        {
+          "name": "Kadick Integration",
+          "aliases": ["Kadick Integration"],
+          "bankCode": "110008",
+          "scCode": null
+        },
+        {
+          "name": "Kegow",
+          "aliases": ["Kegow"],
+          "bankCode": "100015",
+          "scCode": null
+        },
+        {
+          "name": "KEGOW (ChamsMobile)",
+          "aliases": ["Kegow"],
+          "bankCode": "100036",
+          "scCode": null
+        },
+        {
+          "name": "M36",
+          "aliases": ["M36"],
+          "bankCode": "100035",
+          "scCode": null
+        },
+        {
+          "name": "Mkudi",
+          "aliases": ["Mkudi"],
+          "bankCode": "100011",
+          "scCode": null
+        },
+        {
+          "name": "MoneyBox",
+          "aliases": ["MoneyBox"],
+          "bankCode": "934",
+          "scCode": "934"
+        },
+        {
+          "name": "NIP Virtual Bank",
+          "aliases": ["NIP Virtual Bank"],
+          "bankCode": "999999",
+          "scCode": null
+        },
+        {
+          "name": "One Finance",
+          "aliases": ["One Finance"],
+          "bankCode": "940",
+          "scCode": "940"
+        },
+        {
+          "name": "OPay Digital Services Limited",
+          "aliases": ["OPay Digital Services Limited", "PAYCOM"],
+          "bankCode": "100004",
+          "scCode": "999992"
+        },
+        {
+          "name": "Paga",
+          "aliases": ["PAGA"],
+          "bankCode": "100002",
+          "scCode": "916"
+        },
+        {
+          "name": "Palmpay",
+          "aliases": ["PALMPAY"],
+          "bankCode": "100033",
+          "scCode": "999991"
+        },
+        {
+          "name": "ParkWay-ReadyCash",
+          "aliases": ["ParkWay-ReadyCash"],
+          "bankCode": "100003",
+          "scCode": "311"
+        },
+        {
+          "name": "PayAttitude Online",
+          "aliases": ["PayAttitude Online"],
+          "bankCode": "943",
+          "scCode": "943"
+        },
+        {
+          "name": "PAYCOM",
+          "aliases": ["PAYCOM, Opay"],
+          "bankCode": "305",
+          "scCode": "305"
+        },
+        {
+          "name": "Paystack-Titan",
+          "aliases": ["Paystack-Titan"],
+          "bankCode": "100039",
+          "scCode": null
+        },
+        {
+          "name": "Pocket App",
+          "aliases": ["Pocket App", "Pocket by FirstBank"],
+          "bankCode": "100042",
+          "scCode": "00716"
+        },
+        {
+          "name": "Purplemoney",
+          "aliases": ["Purplemoney"],
+          "bankCode": "090303",
+          "scCode": null
+        },
+        {
+          "name": "Simplify Energy",
+          "aliases": ["Simplify Energy"],
+          "bankCode": "110034",
+          "scCode": null
+        },
+        {
+          "name": "Stanbic IBTC @ease",
+          "aliases": ["Stanbic IBTC @ease"],
+          "bankCode": "921",
+          "scCode": "921"
+        },
+        {
+          "name": "Stanbic Mobile",
+          "aliases": ["Stanbic Mobile"],
+          "bankCode": "304",
+          "scCode": "304"
+        },
+        {
+          "name": "StanbicMobileMoney",
+          "aliases": ["StanbicMobileMoney"],
+          "bankCode": "100007",
+          "scCode": null
+        },
+        {
+          "name": "Sterling Mobile",
+          "aliases": ["Sterling Mobile"],
+          "bankCode": "936",
+          "scCode": "936"
+        },
+        {
+          "name": "TAGPAY",
+          "aliases": ["TAGPAY"],
+          "bankCode": "937",
+          "scCode": "937"
+        },
+        {
+          "name": "Tangerine Money",
+          "aliases": ["Tangerine Money"],
+          "bankCode": "090426",
+          "scCode": "51269"
+        },
+        {
+          "name": "Teasy MOBILE",
+          "aliases": ["Teasy MOBILE"],
+          "bankCode": "924",
+          "scCode": "924"
+        },
+        {
+          "name": "TENN",
+          "aliases": ["TENN"],
+          "bankCode": "51403",
+          "scCode": "51403"
+        },
+        {
+          "name": "UBA MONI",
+          "aliases": ["UBA MONI"],
+          "bankCode": "000040",
+          "scCode": null
+        },
+        {
+          "name": "Unlimit Nigeria Limited",
+          "aliases": ["Unlimit Nigeria Limited"],
+          "bankCode": "110081",
+          "scCode": null
+        },
+        {
+          "name": "VT Networks",
+          "aliases": ["VT Networks"],
+          "bankCode": "100012",
+          "scCode": "926"
+        },
+        {
+          "name": "Xpress Wallet",
+          "aliases": ["Xpress Wallet"],
+          "bankCode": "100040",
+          "scCode": null
+        },
+        {
+          "name": "XpressMTS",
+          "aliases": ["XpressMTS"],
+          "bankCode": "100041",
+          "scCode": null
+        },
+        {
+          "name": "Zenith Eazy Wallet",
+          "aliases": ["Zenith Eazy Wallet"],
+          "bankCode": "100034",
+          "scCode": null
+        },
+        {
+          "name": "ZENITH Mobile",
+          "aliases": ["ZENITH Mobile"],
+          "bankCode": "322",
+          "scCode": "322"
+        },
+        {
+          "name": "ZINTERNET - KONGAPAY",
+          "aliases": ["ZINTERNET - KONGAPAY"],
+          "bankCode": "100025",
+          "scCode": "939"
+        }
+      ],
+      "mortgage_banks": [
+        {
+          "name": "Abbey Mortgage Bank",
+          "aliases": ["Abbey Mortgage Bank"],
+          "bankCode": "070010",
+          "scCode": "404"
+        },
+        {
+          "name": "Adamawa Mortgage Bank Limited",
+          "aliases": ["Adamawa Mortgage Bank Limited"],
+          "bankCode": "070030",
+          "scCode": "90102"
+        },
+        {
+          "name": "AG Mortgage Bank",
+          "aliases": ["AG Mortgage Bank"],
+          "bankCode": "100028",
+          "scCode": "90077"
+        },
+        {
+          "name": "ASO Savings and Loans",
+          "aliases": ["ASO Savings and Loans"],
+          "bankCode": "401",
+          "scCode": "null"
+        },
+        {
+          "name": "Aspire Mortgage Bank",
+          "aliases": ["Aspire Mortgage Bank"],
+          "bankCode": "070033",
+          "scCode": null
+        },
+        {
+          "name": "Brent Mortgage Bank",
+          "aliases": ["Brent Mortgage Bank"],
+          "bankCode": "070015",
+          "scCode": "90070"
+        },
+        {
+          "name": "CITYCODE MORTAGE BANK",
+          "aliases": ["CITYCODE MORTAGE BANK"],
+          "bankCode": "070027",
+          "scCode": null
+        },
+        {
+          "name": "Cooperative Mortgage Bank",
+          "aliases": ["Cooperative Mortgage Bank"],
+          "bankCode": "90089",
+          "scCode": "90089"
+        },
+        {
+          "name": "Delta Trust Mortgage Bank",
+          "aliases": ["Delta Trust Mortgage Bank"],
+          "bankCode": "070023",
+          "scCode": null
+        },
+        {
+          "name": "First Generation Mortgage Bank",
+          "aliases": ["First Generation Mortgage Bank"],
+          "bankCode": "070014",
+          "scCode": null
+        },
+        {
+          "name": "FirstTrust Mortgage Bank Nigeria",
+          "aliases": ["FirstTrust Mortgage Bank Nigeria"],
+          "bankCode": "090107",
+          "scCode": "413"
+        },
+        {
+          "name": "Gateway Mortgage Bank LTD",
+          "aliases": ["Gateway Mortgage Bank LTD"],
+          "bankCode": "070009",
+          "scCode": "812"
+        },
+        {
+          "name": "Global Trust Savings and Loans Limited",
+          "aliases": ["Global Trust Savings and Loans Limited"],
+          "bankCode": "070032",
+          "scCode": null
+        },
+        {
+          "name": "Haggai Mortgage Bank",
+          "aliases": ["Haggai Mortgage Bank"],
+          "bankCode": "070017",
+          "scCode": null
+        },
+        {
+          "name": "Ibom Mortgage Bank",
+          "aliases": ["Ibom Mortgage Bank"],
+          "bankCode": "070025",
+          "scCode": "90012"
+        },
+        {
+          "name": "Imperial Homes Mortgage Bank",
+          "aliases": ["Imperial Homes Mortgage Bank"],
+          "bankCode": "100024",
+          "scCode": "938"
+        },
+        {
+          "name": "Infinity Trust Mortgage Bank",
+          "aliases": ["Infinity Trust Mortgage Bank"],
+          "bankCode": "070016",
+          "scCode": "070016"
+        },
+        {
+          "name": "Jigawa Savings and Loans Limited",
+          "aliases": ["Jigawa Savings and Loans Limited"],
+          "bankCode": "070029",
+          "scCode": null
+        },
+        {
+          "name": "JubileeLife",
+          "aliases": ["JubileeLife Mortgage Bank"],
+          "bankCode": "090003",
+          "scCode": "906"
+        },
+        {
+          "name": "Kebbi State Home Savings and Loans",
+          "aliases": ["Kebbi State Home Savings and Loans"],
+          "bankCode": "070031",
+          "scCode": "90028"
+        },
+        {
+          "name": "Lagos Building Investment Company Plc",
+          "aliases": ["Lagos Building Investment Company Plc"],
+          "bankCode": "070012",
+          "scCode": "90052"
+        },
+        {
+          "name": "Living Trust Mortgage Bank",
+          "aliases": ["Living Trust Mortgage Bank"],
+          "bankCode": "070007",
+          "scCode": "031"
+        },
+        {
+          "name": "MayFresh Mortgage Bank",
+          "aliases": ["MayFresh Mortgage Bank"],
+          "bankCode": "070019",
+          "scCode": "90003"
+        },
+        {
+          "name": "Mutual Alliance Mortgage Bank",
+          "aliases": ["Mutual Alliance Mortgage Bank"],
+          "bankCode": "070028",
+          "scCode": null
+        },
+        {
+          "name": "Omoluabi Mortgage Bank",
+          "aliases": ["Omoluabi Mortgage Bank"],
+          "bankCode": "950",
+          "scCode": "950"
+        },
+        {
+          "name": "Platinum Mortgage Bank",
+          "aliases": ["Platinum Mortgage Bank"],
+          "bankCode": "070013",
+          "scCode": "268"
+        },
+        {
+          "name": "Refuge Mortgage Bank",
+          "aliases": ["Refuge Mortgage Bank"],
+          "bankCode": "070011",
+          "scCode": "90067"
+        },
+        {
+          "name": "STB Mortgage Bank",
+          "aliases": ["STB Mortgage Bank"],
+          "bankCode": "070022",
+          "scCode": null
+        },
+        {
+          "name": "Trustbond Mortgage Bank",
+          "aliases": ["Trustbond Mortgage Bank"],
+          "bankCode": "090005",
+          "scCode": null
+        }
+      ],
+      "payment_service_banks": [
+        {
+          "name": "9 Payment Service Bank",
+          "aliases": ["9 Payment Service Bank", "9PSB", "9mobile PSB"],
+          "bankCode": "120001",
+          "scCode": null
+        },
+        {
+          "name": "Airtel Smartcash PSB",
+          "aliases": ["Airtel Smartcash PSB", "Smartcash", "Airtel PSB"],
+          "bankCode": "120004",
+          "scCode": null
+        },
+        {
+          "name": "HopePSB",
+          "aliases": ["HopePSB"],
+          "bankCode": "120002",
+          "scCode": null
+        },
+        {
+          "name": "Money Master PSB",
+          "aliases": ["Money Master PSB"],
+          "bankCode": "120005",
+          "scCode": "946"
+        },
+        {
+          "name": "MTN Momo PSB",
+          "aliases": ["MTN Momo PSB"],
+          "bankCode": "120003",
+          "scCode": null
+        }
+      ]
+    }
+  },
+  "RWF": {
+    "metadata": {
+      "total_banks": 13,
+      "last_updated": "2026-05-18",
+      "country": "Rwanda",
+      "sources": [],
+      "notes": "bankCode and scCode are null as Rwanda bank codes are not yet mapped."
+    },
+    "categories": {
+      "commercial_banks": [
+        {
+          "name": "Bank of Kigali",
+          "aliases": ["Bank of Kigali"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "I & M Bank",
+          "aliases": ["I & M Bank"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Equity Bank",
+          "aliases": ["Equity Bank"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Ecobank",
+          "aliases": ["Ecobank Rwanda"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "BPR Bank",
+          "aliases": ["Banque Populaire du Rwanda"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Access Bank Rwanda",
+          "aliases": ["Access Bank Rwanda"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "NCBA Bank",
+          "aliases": ["NCBA Bank"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Bank of Africa",
+          "aliases": ["Bank of Africa"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Cogebanque",
+          "aliases": ["Cogebanque"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Guaranty Trust Bank Rwanda",
+          "aliases": ["GTBank", "GTB"],
+          "bankCode": null,
+          "scCode": null
+        }
+      ],
+      "mobile_money": [
+        {
+          "name": "MTN MoMo",
+          "aliases": ["MTN MoMo"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Airtel Money",
+          "aliases": ["Airtel Money"],
+          "bankCode": null,
+          "scCode": null
+        },
+        {
+          "name": "Tigo",
+          "aliases": ["Tigo"],
+          "bankCode": null,
+          "scCode": null
+        }
+      ]
+    }
+  }
+}
