@@ -459,7 +459,7 @@
         },
         {
           "name": "AB MFB",
-          "aliases": ["AB Microfinance Bank", "AB MFB"],
+          "aliases": ["AB Microfinance Bank"],
           "bankCode": "090270",
           "scCode": null
         },
@@ -498,7 +498,7 @@
         },
         {
           "name": "Ada MFB",
-          "aliases": ["Ada MFB"],
+          "aliases": ["Ada Microfinance Bank"],
           "bankCode": "090483",
           "scCode": null
         },
