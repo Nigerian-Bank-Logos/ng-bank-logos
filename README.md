@@ -1,4 +1,4 @@
-# Nigerian Bank Icons
+# Nigerian Bank Logos
 
 A free, open-source collection of Nigerian bank logos for use in web and mobile applications. Logos are available as PNGs via CDN and as a structured JSON file for easy backend integration.
 
