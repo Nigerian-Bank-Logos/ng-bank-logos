@@ -2563,7 +2563,7 @@
     }
   },
   {
-    "name": "Eyowo",
+    "name": "eyowo",
     "aliases": [
       "Eyowo",
       "Eyowo MFB"
@@ -2572,8 +2572,8 @@
     "scCode": "50126",
     "category": "mobile_money",
     "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/Eyowo.png",
-      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/Eyowo.png"
+      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/eyowo.png",
+      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/eyowo.png"
     }
   },
   {
@@ -4490,16 +4490,17 @@
     }
   },
   {
-    "name": "Kuda MFB",
+    "name": "Kuda",
     "aliases": [
+      "Kuda MFB",
       "Kuda Microfinance Bank"
     ],
     "bankCode": "090267",
     "scCode": "50211",
     "category": "microfinance_banks",
     "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/Kuda%20MFB.png",
-      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/Kuda%20MFB.png"
+      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/Kuda.png",
+      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/Kuda.png"
     }
   },
   {
@@ -4516,16 +4517,17 @@
     }
   },
   {
-    "name": "Lagos Building Investment Company Plc",
+    "name": "Lagos Building Investment Company",
     "aliases": [
-      "Lagos Building Investment Company Plc"
+      "Lagos Building Investment Company Plc",
+      "LBIC"
     ],
     "bankCode": "070012",
     "scCode": "90052",
     "category": "mortgage_banks",
     "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/Lagos%20Building%20Investment%20Company%20Plc.png",
-      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/Lagos%20Building%20Investment%20Company%20Plc.png"
+      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/Lagos%20Building%20Investment%20Company.png",
+      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/Lagos%20Building%20Investment%20Company.png"
     }
   },
   {
@@ -4986,7 +4988,8 @@
   {
     "name": "Mint MFB",
     "aliases": [
-      "MINT-FINEX MFB"
+      "MINT-FINEX MFB",
+      "Mint Microfinance Bank"
     ],
     "bankCode": "090763",
     "scCode": "50304",
@@ -5102,7 +5105,7 @@
     }
   },
   {
-    "name": "Moniepoint MFB",
+    "name": "Moniepoint",
     "aliases": [
       "TeamApt"
     ],
@@ -5110,8 +5113,8 @@
     "scCode": "50515",
     "category": "microfinance_banks",
     "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/Moniepoint%20MFB.png",
-      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/Moniepoint%20MFB.png"
+      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/Moniepoint.png",
+      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/Moniepoint.png"
     }
   },
   {
@@ -5821,7 +5824,9 @@
     "name": "OPay Digital Services Limited",
     "aliases": [
       "OPay Digital Services Limited",
-      "PAYCOM"
+      "PAYCOM (Opay)",
+      "Paycom",
+      "305"
     ],
     "bankCode": "100004",
     "scCode": "999992",
@@ -6064,19 +6069,6 @@
     "logos": {
       "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/PayAttitude%20Online.png",
       "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/PayAttitude%20Online.png"
-    }
-  },
-  {
-    "name": "PAYCOM",
-    "aliases": [
-      "PAYCOM, Opay"
-    ],
-    "bankCode": "305",
-    "scCode": "305",
-    "category": "mobile_money",
-    "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/PAYCOM.png",
-      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/PAYCOM.png"
     }
   },
   {
