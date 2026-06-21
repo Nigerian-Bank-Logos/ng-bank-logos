@@ -1979,8 +1979,8 @@
           "scCode": "50200"
         },
         {
-          "name": "Kuda MFB",
-          "aliases": ["Kuda Microfinance Bank"],
+          "name": "Kuda",
+          "aliases": ["Kuda MFB", "Kuda Microfinance Bank"],
           "bankCode": "090267",
           "scCode": "50211"
         },
@@ -2172,7 +2172,7 @@
         },
         {
           "name": "Mint MFB",
-          "aliases": ["MINT-FINEX MFB"],
+          "aliases": ["MINT-FINEX MFB", "Mint Microfinance Bank"],
           "bankCode": "090763",
           "scCode": "50304"
         },
@@ -3374,7 +3374,7 @@
           "scCode": "920"
         },
         {
-          "name": "Eyowo",
+          "name": "eyowo",
           "aliases": ["Eyowo", "Eyowo MFB"],
           "bankCode": "090328",
           "scCode": "50126"
@@ -3507,7 +3507,12 @@
         },
         {
           "name": "OPay Digital Services Limited",
-          "aliases": ["OPay Digital Services Limited", "PAYCOM"],
+          "aliases": [
+            "OPay Digital Services Limited",
+            "PAYCOM (Opay)",
+            "Paycom",
+            "305"
+          ],
           "bankCode": "100004",
           "scCode": "999992"
         },
@@ -3534,12 +3539,6 @@
           "aliases": ["PayAttitude Online"],
           "bankCode": "943",
           "scCode": "943"
-        },
-        {
-          "name": "PAYCOM",
-          "aliases": ["PAYCOM, Opay"],
-          "bankCode": "305",
-          "scCode": "305"
         },
         {
           "name": "Paystack-Titan",
@@ -3784,8 +3783,8 @@
           "scCode": "90028"
         },
         {
-          "name": "Lagos Building Investment Company Plc",
-          "aliases": ["Lagos Building Investment Company Plc"],
+          "name": "Lagos Building Investment Company",
+          "aliases": ["Lagos Building Investment Company Plc", "LBIC"],
           "bankCode": "070012",
           "scCode": "90052"
         },
