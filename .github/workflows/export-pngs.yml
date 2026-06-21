@@ -2,9 +2,6 @@ name: Export PNGs from SVGs
 
 on:
   push:
-    paths:
-      - "source/**"
-      - "data/bank.json"
 
 permissions:
   contents: write
