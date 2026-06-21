@@ -5,7 +5,7 @@ import path from 'path'
 const banks = JSON.parse(fs.readFileSync('./data/bank.json', 'utf8'))
 const SIZE = 400
 const VARIANTS = ['circle', 'square']
-const REPO = 'https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main'
+const REPO = 'https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main'
 
 // Detects the red question-mark placeholder SVG by two structural signals that are
 // identical across all known variants: the #DDDBDB circular border path and the
