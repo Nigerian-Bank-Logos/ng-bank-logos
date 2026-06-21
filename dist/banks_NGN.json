@@ -5206,16 +5206,17 @@
     }
   },
   {
-    "name": "NDCC MICROFINANCE BANK",
+    "name": "NDDC MICROFINANCE BANK",
     "aliases": [
+      "NDDC MFB",
       "NDCC MICROFINANCE BANK"
     ],
     "bankCode": "090679",
     "scCode": null,
     "category": "microfinance_banks",
     "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/NDCC%20MICROFINANCE%20BANK.png",
-      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/NDCC%20MICROFINANCE%20BANK.png"
+      "circle": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/circle/NDDC%20MICROFINANCE%20BANK.png",
+      "square": "https://cdn.jsdelivr.net/gh/Onowomano/moniepal-bank-logos@main/logos/ngn/square/NDDC%20MICROFINANCE%20BANK.png"
     }
   },
   {
