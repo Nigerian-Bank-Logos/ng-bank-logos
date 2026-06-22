@@ -32,3 +32,11 @@ jobs:
           git add logos/ dist/
           git diff --staged --quiet || git commit -m "chore: auto-export PNGs and update live_banks JSON"
           git push
+
+      - name: Purge jsDelivr cache for banks JSON files
+        run: |
+          for file in dist/banks_*.json; do
+            filename=$(basename "$file")
+            curl -s "https://purge.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/dist/${filename}" > /dev/null
+            echo "Purged: $filename"
+          done
