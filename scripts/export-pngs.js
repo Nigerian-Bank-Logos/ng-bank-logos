@@ -32,12 +32,12 @@ for (const [currency, data] of Object.entries(banks)) {
         let sourceSvg = defaultSvg
         let matchedAlias = null
 
-        if (fs.existsSync(nameSvgPath) && !isQuestionMarkPlaceholder(nameSvgPath)) {
+        if (fs.existsSync(nameSvgPath)) {
           sourceSvg = nameSvgPath
         } else {
           for (const alias of (bank.aliases ?? [])) {
             const aliasSvgPath = `./source/${currencyFolder}/${categoryFolder}/${variant}/${alias}.svg`
-            if (fs.existsSync(aliasSvgPath) && !isQuestionMarkPlaceholder(aliasSvgPath)) {
+            if (fs.existsSync(aliasSvgPath)) {
               sourceSvg = aliasSvgPath
               matchedAlias = alias
               break
