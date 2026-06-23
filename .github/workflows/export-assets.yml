@@ -1,0 +1,108 @@
+name: Validate and export bank logos
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "source/**"
+      - "scripts/**"
+      - "test/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/export-assets.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**"
+      - "source/**"
+      - "scripts/**"
+      - "test/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/export-assets.yml"
+
+concurrency:
+  group: bank-logo-export-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Validate sources
+        run: npm run validate:source
+
+      - name: Verify export can complete
+        run: npm run export:check
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Export assets
+        run: npm run export
+
+      - name: Validate published output
+        run: npm run validate
+
+      - name: Record changed CDN paths
+        run: git diff --name-only -- logos dist > /tmp/changed-assets.txt
+
+      - name: Commit and push generated output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add logos/ dist/
+          git diff --staged --quiet || git commit -m "chore: export bank logo assets"
+          git push
+
+      - name: Purge changed jsDelivr paths
+        run: |
+          node --input-type=module -e '
+            import fs from "node:fs";
+            const paths = fs.readFileSync("/tmp/changed-assets.txt", "utf8")
+              .split("\n")
+              .filter(Boolean)
+              .map((file) => file.split("/").map(encodeURIComponent).join("/"));
+            fs.writeFileSync("/tmp/purge-urls.txt", paths.join("\n"));
+          '
+          while IFS= read -r file; do
+            curl --fail --silent --show-error \
+              "https://purge.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/${file}" \
+              > /dev/null
+            echo "Purged: ${file}"
+          done < /tmp/purge-urls.txt
