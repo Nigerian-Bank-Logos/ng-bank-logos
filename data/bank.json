@@ -1,8 +1,8 @@
 {
   "NGN": {
     "metadata": {
-      "total_banks": 643,
-      "last_updated": "2026-03-21",
+      "total_banks": 637,
+      "last_updated": "2026-06-23",
       "country": "Nigeria",
       "sources": [
         "Paystack API",
@@ -1430,7 +1430,7 @@
           "name": "FETS",
           "aliases": ["FETS"],
           "bankCode": "100001",
-          "scCode": null
+          "scCode": "915"
         },
         {
           "name": "FFS Microfinance Bank",
@@ -1531,7 +1531,7 @@
         {
           "name": "Fortress MFB",
           "aliases": ["Fortress MFB"],
-          "bankCode": "D53",
+          "bankCode": "090486",
           "scCode": "D53"
         },
         {
@@ -1843,7 +1843,7 @@
         {
           "name": "Investin MFB",
           "aliases": ["Investin MFB"],
-          "bankCode": "091002",
+          "bankCode": "090998",
           "scCode": null
         },
         {
@@ -2409,12 +2409,6 @@
           "name": "Ohha MFB",
           "aliases": ["Ohha MFB"],
           "bankCode": "090626",
-          "scCode": null
-        },
-        {
-          "name": "OK MFB",
-          "aliases": ["OK MFB"],
-          "bankCode": "090567",
           "scCode": null
         },
         {
@@ -3316,7 +3310,7 @@
         {
           "name": "ALAT by WEMA",
           "aliases": ["ALAT by WEMA", "ALAT", "Wema Bank"],
-          "bankCode": "035A",
+          "bankCode": "035150103",
           "scCode": "035A"
         },
         {
@@ -3390,12 +3384,6 @@
           "aliases": ["FCMB Easy Account"],
           "bankCode": "100031",
           "scCode": null
-        },
-        {
-          "name": "FETS",
-          "aliases": ["FETS"],
-          "bankCode": "915",
-          "scCode": "915"
         },
         {
           "name": "Fidelity Mobile",

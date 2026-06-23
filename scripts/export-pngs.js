@@ -7,22 +7,6 @@ const SIZE = 400
 const VARIANTS = ['circle', 'square']
 const REPO = 'https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main'
 
-// Detects the red question-mark placeholder SVG by two structural signals that are
-// identical across all known variants: the #DDDBDB circular border path and the
-// #FF0000 question mark fill. Coordinates on the ? glyph vary between Figma exports
-// so we do not match on those.
-function isQuestionMarkPlaceholder(svgPath) {
-  try {
-    const content = fs.readFileSync(svgPath, 'utf8')
-    return (
-      content.includes('fill="#DDDBDB"') &&
-      content.includes('fill="#FF0000"')
-    )
-  } catch {
-    return false
-  }
-}
-
 fs.mkdirSync('./dist', { recursive: true })
 
 for (const [currency, data] of Object.entries(banks)) {
