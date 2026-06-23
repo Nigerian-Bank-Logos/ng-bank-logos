@@ -23,14 +23,14 @@ https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/{curren
 Examples:
 
 ```text
-https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/commercial-banks/Access%20Bank%20Nigeria.png
-https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Access%20Bank%20Nigeria.svg
+https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/commercial-banks/Kuda.png
+https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Kuda.svg
 ```
 
 ```html
 <img
-  src="https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Access%20Bank%20Nigeria.svg"
-  alt="Access Bank Nigeria"
+  src="https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Kuda.svg"
+  alt="Kuda Bank"
   width="48"
   height="48"
   style="border-radius: 50%"
@@ -52,17 +52,20 @@ const banks = await fetch(
 Each record has this structure:
 
 ```json
-{
-  "name": "Access Bank Nigeria",
-  "aliases": ["Access Bank Nigeria"],
-  "bankCode": "000014",
-  "scCode": "044",
-  "category": "commercial_banks",
-  "logos": {
-    "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/commercial-banks/Access%20Bank%20Nigeria.png",
-    "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Access%20Bank%20Nigeria.svg"
+  {
+    "name": "Kuda",
+    "aliases": [
+      "Kuda MFB",
+      "Kuda Microfinance Bank"
+    ],
+    "bankCode": "090267",
+    "scCode": "50211",
+    "category": "microfinance_banks",
+    "logos": {
+      "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Kuda.png",
+      "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Kuda.svg"
+    }
   }
-}
 ```
 
 Example lookup:
@@ -75,7 +78,7 @@ function getBankLogo(banks, code, format = "svg") {
   return bank?.logos[format] ?? null;
 }
 
-const logoUrl = getBankLogo(banks, "044");
+const logoUrl = getBankLogo(banks, "090267");
 ```
 
 ## Supported currencies
