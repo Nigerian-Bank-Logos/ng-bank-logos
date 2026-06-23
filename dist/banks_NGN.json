@@ -404,7 +404,7 @@
       "ALAT",
       "Wema Bank"
     ],
-    "bankCode": "035A",
+    "bankCode": "035150103",
     "scCode": "035A",
     "category": "mobile_money",
     "logos": {
@@ -2764,24 +2764,11 @@
       "FETS"
     ],
     "bankCode": "100001",
-    "scCode": null,
+    "scCode": "915",
     "category": "microfinance_banks",
     "logos": {
       "circle": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/circle/FETS.png",
       "square": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/square/FETS.png"
-    }
-  },
-  {
-    "name": "FETS",
-    "aliases": [
-      "FETS"
-    ],
-    "bankCode": "915",
-    "scCode": "915",
-    "category": "mobile_money",
-    "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/circle/FETS-1.png",
-      "square": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/square/FETS-1.png"
     }
   },
   {
@@ -3140,7 +3127,7 @@
     "aliases": [
       "Fortress MFB"
     ],
-    "bankCode": "D53",
+    "bankCode": "090486",
     "scCode": "D53",
     "category": "microfinance_banks",
     "logos": {
@@ -4091,7 +4078,7 @@
     "aliases": [
       "Investin MFB"
     ],
-    "bankCode": "091002",
+    "bankCode": "090998",
     "scCode": null,
     "category": "microfinance_banks",
     "logos": {
@@ -5636,19 +5623,6 @@
     "logos": {
       "circle": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/circle/Ohha%20MFB.png",
       "square": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/square/Ohha%20MFB.png"
-    }
-  },
-  {
-    "name": "OK MFB",
-    "aliases": [
-      "OK MFB"
-    ],
-    "bankCode": "090567",
-    "scCode": null,
-    "category": "microfinance_banks",
-    "logos": {
-      "circle": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/circle/OK%20MFB.png",
-      "square": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/square/OK%20MFB.png"
     }
   },
   {
