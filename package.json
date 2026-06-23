@@ -1,14 +1,18 @@
 {
   "name": "bank-logos-repo",
   "version": "1.0.0",
-  "description": "A free, open-source collection of Nigerian bank logos for use in web and mobile applications. Logos are available as PNGs via CDN and as a structured JSON file for easy backend integration.",
-  "main": "index.js",
+  "description": "A free, open-source collection of Nigerian bank logos available as PNG and SVG assets with a structured JSON index.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export": "node scripts/export-assets.js",
+    "export:check": "node scripts/export-assets.js --dry-run",
+    "validate": "node scripts/validate-assets.js",
+    "validate:source": "node scripts/validate-assets.js --source-only",
+    "test": "node --test"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "sharp": "^0.35.0"
