@@ -23,13 +23,13 @@ https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/{curren
 Examples:
 
 ```text
-https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/commercial-banks/Kuda.png
-https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Kuda.svg
+https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Kuda.png
+https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Kuda.svg
 ```
 
 ```html
 <img
-  src="https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Kuda.svg"
+  src="https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Kuda.svg"
   alt="Kuda Bank"
   width="48"
   height="48"
