@@ -1,10 +1,11 @@
+import crypto from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
 import sharp from 'sharp'
 
 export const CDN_ROOT =
   'https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main'
-export const JSON_SCHEMA_VERSION = '2.0.0'
+export const JSON_SCHEMA_VERSION = '1.0.0'
 export const PNG_SIZE = 400
 
 export function categoryFolder(category) {
@@ -102,9 +103,44 @@ export function expectedBankCount(currencyData) {
   )
 }
 
+function stableStringify(value) {
+  if (Array.isArray(value)) {
+    return `[${value.map((item) => stableStringify(item)).join(',')}]`
+  }
+  if (value && typeof value === 'object') {
+    return `{${Object.keys(value)
+      .sort()
+      .map((key) => `${JSON.stringify(key)}:${stableStringify(value[key])}`)
+      .join(',')}}`
+  }
+  return JSON.stringify(value)
+}
+
+export function dataVersionForDocument({
+  schemaVersion = JSON_SCHEMA_VERSION,
+  currency,
+  metadata,
+  banks,
+}) {
+  const content = stableStringify({
+    schemaVersion,
+    currency,
+    metadata,
+    banks,
+  })
+  return `sha256:${crypto.createHash('sha256').update(content).digest('hex')}`
+}
+
 export function buildJsonDocument({ currency, metadata, banks }) {
-  return {
+  const documentWithoutDataVersion = {
     schemaVersion: JSON_SCHEMA_VERSION,
+    currency,
+    metadata,
+    banks,
+  }
+  return {
+    schemaVersion: documentWithoutDataVersion.schemaVersion,
+    dataVersion: dataVersionForDocument(documentWithoutDataVersion),
     currency,
     metadata,
     banks,

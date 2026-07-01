@@ -55,7 +55,8 @@ The JSON document has this structure:
 
 ```json
 {
-  "schemaVersion": "2.0.0",
+  "schemaVersion": "1.0.0",
+  "dataVersion": "sha256:2c7d...",
   "currency": "NGN",
   "metadata": {
     "total_banks": 637,
@@ -80,6 +81,10 @@ The JSON document has this structure:
   ]
 }
 ```
+
+`schemaVersion` identifies the JSON contract and changes only when the document
+shape changes. `dataVersion` is generated automatically from the published
+metadata and bank records, so it changes only when the generated data changes.
 
 Example lookup:
 

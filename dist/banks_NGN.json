@@ -1,5 +1,6 @@
 {
-  "schemaVersion": "2.0.0",
+  "schemaVersion": "1.0.0",
+  "dataVersion": "sha256:e2937247ac592d553bf008a444a1a7290082d33e69e25a8965114ed72c4cdfa9",
   "currency": "NGN",
   "metadata": {
     "total_banks": 637,
