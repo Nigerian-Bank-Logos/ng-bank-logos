@@ -7,6 +7,7 @@ export const CDN_ROOT =
   'https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main'
 export const JSON_SCHEMA_VERSION = '1.0.0'
 export const PNG_SIZE = 400
+const PRIVATE_METADATA_FIELDS = new Set(['country', 'notes', 'sources'])
 
 export function categoryFolder(category) {
   return category.replaceAll('_', '-')
@@ -131,18 +132,25 @@ export function dataVersionForDocument({
   return `sha256:${crypto.createHash('sha256').update(content).digest('hex')}`
 }
 
+export function publicMetadata(metadata = {}) {
+  return Object.fromEntries(
+    Object.entries(metadata).filter(([key]) => !PRIVATE_METADATA_FIELDS.has(key)),
+  )
+}
+
 export function buildJsonDocument({ currency, metadata, banks }) {
+  const metadataForJson = publicMetadata(metadata)
   const documentWithoutDataVersion = {
     schemaVersion: JSON_SCHEMA_VERSION,
     currency,
-    metadata,
+    metadata: metadataForJson,
     banks,
   }
   return {
     schemaVersion: documentWithoutDataVersion.schemaVersion,
     dataVersion: dataVersionForDocument(documentWithoutDataVersion),
     currency,
-    metadata,
+    metadata: metadataForJson,
     banks,
   }
 }

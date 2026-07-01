@@ -1,17 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": "sha256:e2937247ac592d553bf008a444a1a7290082d33e69e25a8965114ed72c4cdfa9",
+  "dataVersion": "sha256:0e554d8e7c3fa4dbeb67d96cd5a14245313e43a8c9272a261b0db9ff4a925b37",
   "currency": "NGN",
   "metadata": {
     "total_banks": 637,
-    "last_updated": "2026-06-23",
-    "country": "Nigeria",
-    "sources": [
-      "Paystack API",
-      "Globus Bank PDF",
-      "NIP Institution List (Kuda)"
-    ],
-    "notes": "bankCode = NIP institution code (6-digit). scCode = CBN sort code (3-digit legacy). MFBs typically only have bankCode."
+    "last_updated": "2026-06-23"
   },
   "banks": [
     {

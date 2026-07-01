@@ -60,8 +60,7 @@ The JSON document has this structure:
   "currency": "NGN",
   "metadata": {
     "total_banks": 637,
-    "last_updated": "2026-06-23",
-    "country": "Nigeria"
+    "last_updated": "2026-06-23"
   },
   "banks": [
     {
@@ -85,6 +84,8 @@ The JSON document has this structure:
 `schemaVersion` identifies the JSON contract and changes only when the document
 shape changes. `dataVersion` is generated automatically from the published
 metadata and bank records, so it changes only when the generated data changes.
+Internal metadata such as source notes and country labels is kept in
+`data/bank.json` and omitted from the generated distribution JSON.
 
 Example lookup:
 

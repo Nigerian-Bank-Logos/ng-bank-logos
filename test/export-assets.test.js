@@ -31,7 +31,13 @@ function writeData(rootDir, banks) {
     path.join(rootDir, 'data', 'bank.json'),
     JSON.stringify({
       NGN: {
-        metadata: { total_banks: banks.length },
+        metadata: {
+          total_banks: banks.length,
+          last_updated: '2026-06-23',
+          country: 'Nigeria',
+          sources: ['Test Source'],
+          notes: 'Internal test note',
+        },
         categories: { commercial_banks: banks },
       },
     }),
@@ -67,21 +73,37 @@ test('JSON document versioning is deterministic and content-addressed', () => {
   ]
   const document = buildJsonDocument({
     currency: 'NGN',
-    metadata: { total_banks: 1 },
+    metadata: {
+      total_banks: 1,
+      last_updated: '2026-06-23',
+      country: 'Nigeria',
+      sources: ['Source'],
+      notes: 'Internal note',
+    },
     banks,
   })
   const sameDocument = buildJsonDocument({
     currency: 'NGN',
-    metadata: { total_banks: 1 },
+    metadata: {
+      total_banks: 1,
+      last_updated: '2026-06-23',
+      country: 'Ghana',
+      sources: ['Different source'],
+      notes: 'Different internal note',
+    },
     banks,
   })
   const changedDocument = buildJsonDocument({
     currency: 'NGN',
-    metadata: { total_banks: 1 },
+    metadata: { total_banks: 1, last_updated: '2026-06-23' },
     banks: [{ ...banks[0], bankCode: '2' }],
   })
 
   assert.equal(document.schemaVersion, '1.0.0')
+  assert.deepEqual(document.metadata, {
+    total_banks: 1,
+    last_updated: '2026-06-23',
+  })
   assert.match(document.dataVersion, /^sha256:[a-f0-9]{64}$/)
   assert.equal(document.dataVersion, sameDocument.dataVersion)
   assert.notEqual(document.dataVersion, changedDocument.dataVersion)
@@ -191,6 +213,10 @@ test('fallback banks share the generated default asset URLs', async () => {
   assert.match(document.dataVersion, /^sha256:[a-f0-9]{64}$/)
   assert.equal(document.currency, 'NGN')
   assert.equal(document.metadata.total_banks, 2)
+  assert.equal(document.metadata.last_updated, '2026-06-23')
+  assert.equal('country' in document.metadata, false)
+  assert.equal('sources' in document.metadata, false)
+  assert.equal('notes' in document.metadata, false)
   const records = document.banks
   assert.deepEqual(records[0].logos, records[1].logos)
   assert.equal(
