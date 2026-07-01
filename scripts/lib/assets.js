@@ -1,4 +1,5 @@
 import crypto from 'node:crypto'
+import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
 import path from 'node:path'
 import sharp from 'sharp'
@@ -132,14 +133,29 @@ export function dataVersionForDocument({
   return `sha256:${crypto.createHash('sha256').update(content).digest('hex')}`
 }
 
-export function publicMetadata(metadata = {}) {
-  return Object.fromEntries(
-    Object.entries(metadata).filter(([key]) => !PRIVATE_METADATA_FIELDS.has(key)),
-  )
+export function latestCatalogueUpdateDate(rootDir, fallbackDate = null) {
+  try {
+    const output = execFileSync(
+      'git',
+      ['-C', rootDir, 'log', '-1', '--format=%cs', '--', 'data', 'source'],
+      { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] },
+    ).trim()
+    if (/^\d{4}-\d{2}-\d{2}$/.test(output)) return output
+  } catch {}
+
+  return fallbackDate ?? new Date().toISOString().slice(0, 10)
 }
 
-export function buildJsonDocument({ currency, metadata, banks }) {
-  const metadataForJson = publicMetadata(metadata)
+export function publicMetadata(metadata = {}, { lastUpdated = null } = {}) {
+  const filteredMetadata = Object.fromEntries(
+    Object.entries(metadata).filter(([key]) => !PRIVATE_METADATA_FIELDS.has(key)),
+  )
+  if (lastUpdated) filteredMetadata.last_updated = lastUpdated
+  return filteredMetadata
+}
+
+export function buildJsonDocument({ currency, metadata, banks, lastUpdated = null }) {
+  const metadataForJson = publicMetadata(metadata, { lastUpdated })
   const documentWithoutDataVersion = {
     schemaVersion: JSON_SCHEMA_VERSION,
     currency,

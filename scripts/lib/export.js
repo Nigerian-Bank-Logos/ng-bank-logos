@@ -5,6 +5,7 @@ import {
   buildJsonDocument,
   categoryFolder,
   defaultAssetUrl,
+  latestCatalogueUpdateDate,
   loadBankData,
   renderPng as defaultRenderPng,
   resolveSource,
@@ -74,6 +75,10 @@ export async function exportAssets({
 
     for (const [currency, currencyData] of Object.entries(bankData)) {
       const records = []
+      const lastUpdated = latestCatalogueUpdateDate(
+        rootDir,
+        currencyData.metadata.last_updated,
+      )
 
       for (const [category, banks] of Object.entries(currencyData.categories)) {
         const folder = categoryFolder(category)
@@ -158,6 +163,7 @@ export async function exportAssets({
             currency,
             metadata: currencyData.metadata,
             banks: records,
+            lastUpdated,
           }),
           null,
           2,

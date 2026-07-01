@@ -8,6 +8,7 @@ import {
   categoryFolder,
   defaultAssetUrl,
   expectedBankCount,
+  latestCatalogueUpdateDate,
   loadBankData,
   resolveSource,
   validateSvgSafety,
@@ -87,6 +88,10 @@ export async function validateGenerated(
 
   for (const [currency, currencyData] of Object.entries(bankData)) {
     const records = []
+    const lastUpdated = latestCatalogueUpdateDate(
+      rootDir,
+      currencyData.metadata.last_updated,
+    )
     for (const [category, banks] of Object.entries(currencyData.categories)) {
       const folder = categoryFolder(category)
       for (const bank of banks) {
@@ -167,6 +172,7 @@ export async function validateGenerated(
       currency,
       metadata: currencyData.metadata,
       banks: records,
+      lastUpdated,
     })
     const generatedDocument = JSON.parse(fs.readFileSync(distPath, 'utf8'))
     if (JSON.stringify(generatedDocument) !== JSON.stringify(expectedDocument)) {

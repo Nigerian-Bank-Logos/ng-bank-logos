@@ -84,6 +84,8 @@ The JSON document has this structure:
 `schemaVersion` identifies the JSON contract and changes only when the document
 shape changes. `dataVersion` is generated automatically from the published
 metadata and bank records, so it changes only when the generated data changes.
+`metadata.last_updated` is generated from the latest Git commit date touching
+`data/` or `source/`.
 Internal metadata such as source notes and country labels is kept in
 `data/bank.json` and omitted from the generated distribution JSON.
 

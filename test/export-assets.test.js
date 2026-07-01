@@ -75,12 +75,13 @@ test('JSON document versioning is deterministic and content-addressed', () => {
     currency: 'NGN',
     metadata: {
       total_banks: 1,
-      last_updated: '2026-06-23',
+      last_updated: '2020-01-01',
       country: 'Nigeria',
       sources: ['Source'],
       notes: 'Internal note',
     },
     banks,
+    lastUpdated: '2026-06-23',
   })
   const sameDocument = buildJsonDocument({
     currency: 'NGN',
@@ -92,11 +93,13 @@ test('JSON document versioning is deterministic and content-addressed', () => {
       notes: 'Different internal note',
     },
     banks,
+    lastUpdated: '2026-06-23',
   })
   const changedDocument = buildJsonDocument({
     currency: 'NGN',
     metadata: { total_banks: 1, last_updated: '2026-06-23' },
     banks: [{ ...banks[0], bankCode: '2' }],
+    lastUpdated: '2026-06-23',
   })
 
   assert.equal(document.schemaVersion, '1.0.0')
