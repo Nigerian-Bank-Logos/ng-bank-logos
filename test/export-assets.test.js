@@ -143,9 +143,13 @@ test('fallback banks share the generated default asset URLs', async () => {
     ),
     false,
   )
-  const records = JSON.parse(
+  const document = JSON.parse(
     fs.readFileSync(path.join(rootDir, 'dist', 'banks_NGN.json'), 'utf8'),
   )
+  assert.equal(document.schemaVersion, '2.0.0')
+  assert.equal(document.currency, 'NGN')
+  assert.equal(document.metadata.total_banks, 2)
+  const records = document.banks
   assert.deepEqual(records[0].logos, records[1].logos)
   assert.equal(
     records[0].logos.svg,

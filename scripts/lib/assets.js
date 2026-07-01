@@ -4,6 +4,7 @@ import sharp from 'sharp'
 
 export const CDN_ROOT =
   'https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main'
+export const JSON_SCHEMA_VERSION = '2.0.0'
 export const PNG_SIZE = 400
 
 export function categoryFolder(category) {
@@ -99,4 +100,13 @@ export function expectedBankCount(currencyData) {
     (total, banks) => total + banks.length,
     0,
   )
+}
+
+export function buildJsonDocument({ currency, metadata, banks }) {
+  return {
+    schemaVersion: JSON_SCHEMA_VERSION,
+    currency,
+    metadata,
+    banks,
+  }
 }

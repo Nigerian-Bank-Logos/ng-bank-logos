@@ -9,7 +9,7 @@ plus a generated JSON record containing ready-to-use CDN URLs.
 - 400×400 PNG logos
 - Original SVG logos
 - Category-grouped asset paths
-- `dist/banks_NGN.json`, with PNG and SVG URLs
+- Versioned `dist/banks_NGN.json`, with PNG and SVG URLs
 - Shared default PNG and SVG fallbacks for institutions without a usable source logo
 
 ## CDN usage
@@ -44,28 +44,41 @@ presentation is needed.
 ## JSON integration
 
 ```javascript
-const banks = await fetch(
+const bankIndex = await fetch(
   "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/dist/banks_NGN.json",
 ).then((response) => response.json());
+
+const banks = bankIndex.banks;
 ```
 
-Each record has this structure:
+The JSON document has this structure:
 
 ```json
-  {
-    "name": "Kuda",
-    "aliases": [
-      "Kuda MFB",
-      "Kuda Microfinance Bank"
-    ],
-    "bankCode": "090267",
-    "scCode": "50211",
-    "category": "microfinance_banks",
-    "logos": {
-      "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Kuda.png",
-      "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Kuda.svg"
+{
+  "schemaVersion": "2.0.0",
+  "currency": "NGN",
+  "metadata": {
+    "total_banks": 637,
+    "last_updated": "2026-06-23",
+    "country": "Nigeria"
+  },
+  "banks": [
+    {
+      "name": "Kuda",
+      "aliases": [
+        "Kuda MFB",
+        "Kuda Microfinance Bank"
+      ],
+      "bankCode": "090267",
+      "scCode": "50211",
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Kuda.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Kuda.svg"
+      }
     }
-  }
+  ]
+}
 ```
 
 Example lookup:

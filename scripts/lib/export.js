@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import {
   assetUrl,
+  buildJsonDocument,
   categoryFolder,
   defaultAssetUrl,
   loadBankData,
@@ -152,7 +153,15 @@ export async function exportAssets({
       fs.mkdirSync(distRoot, { recursive: true })
       fs.writeFileSync(
         path.join(distRoot, `banks_${currency}.json`),
-        JSON.stringify(records, null, 2),
+        JSON.stringify(
+          buildJsonDocument({
+            currency,
+            metadata: currencyData.metadata,
+            banks: records,
+          }),
+          null,
+          2,
+        ),
       )
       logger.log(`Generated ${records.length} ${currency} bank records`)
     }

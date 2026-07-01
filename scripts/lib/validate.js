@@ -4,6 +4,7 @@ import sharp from 'sharp'
 import {
   PNG_SIZE,
   assetUrl,
+  buildJsonDocument,
   categoryFolder,
   defaultAssetUrl,
   expectedBankCount,
@@ -162,8 +163,13 @@ export async function validateGenerated(
     expectedDistFiles.add(distFilename)
     const distPath = path.join(distRoot, distFilename)
     if (!fs.existsSync(distPath)) throw new Error(`Missing ${distPath}`)
-    const generatedRecords = JSON.parse(fs.readFileSync(distPath, 'utf8'))
-    if (JSON.stringify(generatedRecords) !== JSON.stringify(records)) {
+    const expectedDocument = buildJsonDocument({
+      currency,
+      metadata: currencyData.metadata,
+      banks: records,
+    })
+    const generatedDocument = JSON.parse(fs.readFileSync(distPath, 'utf8'))
+    if (JSON.stringify(generatedDocument) !== JSON.stringify(expectedDocument)) {
       throw new Error(`${distPath} does not match the expected schema or data`)
     }
   }
