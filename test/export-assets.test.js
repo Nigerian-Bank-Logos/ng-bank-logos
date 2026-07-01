@@ -4,7 +4,12 @@ import os from 'node:os'
 import path from 'node:path'
 import test from 'node:test'
 import sharp from 'sharp'
-import { assetUrl, categoryFolder, resolveSource } from '../scripts/lib/assets.js'
+import {
+  assetUrl,
+  buildJsonDocument,
+  categoryFolder,
+  resolveSource,
+} from '../scripts/lib/assets.js'
 import { exportAssets } from '../scripts/lib/export.js'
 
 const SVG =
@@ -44,6 +49,42 @@ test('category and URL helpers produce canonical encoded paths', () => {
     }),
     'https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/A%20%26%20B.svg',
   )
+})
+
+test('JSON document versioning is deterministic and content-addressed', () => {
+  const banks = [
+    {
+      name: 'Bank',
+      aliases: [],
+      bankCode: '1',
+      scCode: null,
+      category: 'commercial_banks',
+      logos: {
+        png: 'https://example.com/bank.png',
+        svg: 'https://example.com/bank.svg',
+      },
+    },
+  ]
+  const document = buildJsonDocument({
+    currency: 'NGN',
+    metadata: { total_banks: 1 },
+    banks,
+  })
+  const sameDocument = buildJsonDocument({
+    currency: 'NGN',
+    metadata: { total_banks: 1 },
+    banks,
+  })
+  const changedDocument = buildJsonDocument({
+    currency: 'NGN',
+    metadata: { total_banks: 1 },
+    banks: [{ ...banks[0], bankCode: '2' }],
+  })
+
+  assert.equal(document.schemaVersion, '1.0.0')
+  assert.match(document.dataVersion, /^sha256:[a-f0-9]{64}$/)
+  assert.equal(document.dataVersion, sameDocument.dataVersion)
+  assert.notEqual(document.dataVersion, changedDocument.dataVersion)
 })
 
 test('source resolution prefers canonical, then alias, then fallback', () => {
@@ -146,7 +187,8 @@ test('fallback banks share the generated default asset URLs', async () => {
   const document = JSON.parse(
     fs.readFileSync(path.join(rootDir, 'dist', 'banks_NGN.json'), 'utf8'),
   )
-  assert.equal(document.schemaVersion, '2.0.0')
+  assert.equal(document.schemaVersion, '1.0.0')
+  assert.match(document.dataVersion, /^sha256:[a-f0-9]{64}$/)
   assert.equal(document.currency, 'NGN')
   assert.equal(document.metadata.total_banks, 2)
   const records = document.banks
