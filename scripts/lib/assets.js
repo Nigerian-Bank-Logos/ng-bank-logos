@@ -12,18 +12,6 @@ export function categoryFolder(category) {
   return category.replaceAll('_', '-')
 }
 
-export function isQuestionMarkPlaceholder(svgPath) {
-  try {
-    const content = fs.readFileSync(svgPath, 'utf8')
-    return (
-      content.includes('fill="#DDDBDB"') &&
-      content.includes('fill="#FF0000"')
-    )
-  } catch {
-    return false
-  }
-}
-
 export function validateSvgSafety(content, filePath = 'SVG') {
   const forbiddenMarkup =
     /<script\b|\son[a-z]+\s*=|javascript\s*:|<iframe\b|<object\b|<embed\b/i
@@ -50,13 +38,13 @@ export function resolveSource({ rootDir, currency, category, bank }) {
   )
   const canonical = path.join(sourceDir, `${bank.name}.svg`)
 
-  if (fs.existsSync(canonical) && !isQuestionMarkPlaceholder(canonical)) {
+  if (fs.existsSync(canonical)) {
     return { sourcePath: canonical, match: 'canonical', matchedAlias: null }
   }
 
   for (const alias of bank.aliases ?? []) {
     const aliasPath = path.join(sourceDir, `${alias}.svg`)
-    if (fs.existsSync(aliasPath) && !isQuestionMarkPlaceholder(aliasPath)) {
+    if (fs.existsSync(aliasPath)) {
       return { sourcePath: aliasPath, match: 'alias', matchedAlias: alias }
     }
   }

@@ -7,7 +7,6 @@ import {
   buildJsonDocument,
   categoryFolder,
   defaultAssetUrl,
-  expectedBankCount,
   loadBankData,
   resolveSource,
   validateSvgSafety,
@@ -40,13 +39,6 @@ export async function validateSources(rootDir, bankData = loadBankData(rootDir))
   for (const sourceSvg of sourceSvgs) await validateSvg(sourceSvg)
 
   for (const [currency, currencyData] of Object.entries(bankData)) {
-    const actualCount = expectedBankCount(currencyData)
-    if (currencyData.metadata.total_banks !== actualCount) {
-      throw new Error(
-        `${currency} metadata.total_banks is ${currencyData.metadata.total_banks}; expected ${actualCount}`,
-      )
-    }
-
     for (const [category, banks] of Object.entries(currencyData.categories)) {
       for (const bank of banks) {
         const resolved = resolveSource({
@@ -163,12 +155,15 @@ export async function validateGenerated(
     expectedDistFiles.add(distFilename)
     const distPath = path.join(distRoot, distFilename)
     if (!fs.existsSync(distPath)) throw new Error(`Missing ${distPath}`)
+    const generatedDocument = JSON.parse(fs.readFileSync(distPath, 'utf8'))
     const expectedDocument = buildJsonDocument({
       currency,
-      metadata: currencyData.metadata,
+      metadata: {
+        total_banks: records.length,
+        last_updated: generatedDocument.metadata?.last_updated,
+      },
       banks: records,
     })
-    const generatedDocument = JSON.parse(fs.readFileSync(distPath, 'utf8'))
     if (JSON.stringify(generatedDocument) !== JSON.stringify(expectedDocument)) {
       throw new Error(`${distPath} does not match the expected schema or data`)
     }

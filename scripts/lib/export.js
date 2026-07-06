@@ -156,7 +156,10 @@ export async function exportAssets({
         JSON.stringify(
           buildJsonDocument({
             currency,
-            metadata: currencyData.metadata,
+            metadata: {
+              total_banks: records.length,
+              last_updated: new Date().toISOString(),
+            },
             banks: records,
           }),
           null,
