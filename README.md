@@ -60,8 +60,7 @@ The JSON document has this structure:
   "currency": "NGN",
   "metadata": {
     "total_banks": 637,
-    "last_updated": "2026-06-23",
-    "country": "Nigeria"
+    "last_updated": "2026-07-06T10:21:20.396Z",
   },
   "banks": [
     {
