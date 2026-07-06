@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": "sha256:914d9a921c9a395f3fb333537fc3a178f1ab1d70ee21e813510851eac85469ef",
+  "dataVersion": "sha256:cc3483ae9684f7aafedae1be185103bb4db14d07315df27eab74f333a30fd6f3",
   "currency": "NGN",
   "metadata": {
     "total_banks": 637,
-    "last_updated": "2026-07-06T10:21:20.396Z"
+    "last_updated": "2026-07-06T10:30:32.166Z"
   },
   "banks": [
     {
