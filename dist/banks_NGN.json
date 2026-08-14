@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": "sha256:cc3483ae9684f7aafedae1be185103bb4db14d07315df27eab74f333a30fd6f3",
+  "dataVersion": "sha256:ea4b66a85c7f9c40679faaddeb0bacb6e13affc23c11ce0f0cc92a6783f87667",
   "currency": "NGN",
   "metadata": {
-    "total_banks": 637,
-    "last_updated": "2026-07-06T10:30:32.166Z"
+    "total_banks": 657,
+    "last_updated": "2026-08-14T20:14:32.250Z"
   },
   "banks": [
     {
@@ -62,6 +62,19 @@
       }
     },
     {
+      "name": "AACB MFB",
+      "aliases": [
+        "AACB Microfinance Bank"
+      ],
+      "bankCode": "091013",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "AB MFB",
       "aliases": [
         "AB Microfinance Bank"
@@ -75,16 +88,17 @@
       }
     },
     {
-      "name": "Abbey Mortgage Bank",
+      "name": "Abbey Bank",
       "aliases": [
-        "Abbey Mortgage Bank"
+        "Abbey Mortgage Bank",
+        "Abbey Bank Plc"
       ],
       "bankCode": "070010",
       "scCode": "404",
       "category": "mortgage_banks",
       "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mortgage-banks/Abbey%20Mortgage%20Bank.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mortgage-banks/Abbey%20Mortgage%20Bank.svg"
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mortgage-banks/Abbey%20Bank.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mortgage-banks/Abbey%20Bank.svg"
       }
     },
     {
@@ -167,6 +181,20 @@
       }
     },
     {
+      "name": "Access Closa",
+      "aliases": [
+        "Access Money",
+        "Access Bank PSB"
+      ],
+      "bankCode": "100013",
+      "scCode": "927",
+      "category": "mobile_money",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mobile-money/Access%20Closa.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mobile-money/Access%20Closa.svg"
+      }
+    },
+    {
       "name": "Access Mobile",
       "aliases": [
         "ACCESS MOBILE"
@@ -177,20 +205,6 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mobile-money/Access%20Mobile.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mobile-money/Access%20Mobile.svg"
-      }
-    },
-    {
-      "name": "Access Money",
-      "aliases": [
-        "Access Money",
-        "Access Bank PSB"
-      ],
-      "bankCode": "927",
-      "scCode": "927",
-      "category": "mobile_money",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mobile-money/Access%20Money.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mobile-money/Access%20Money.svg"
       }
     },
     {
@@ -300,6 +314,19 @@
       }
     },
     {
+      "name": "Afole MFB",
+      "aliases": [
+        "Afole Microfinance Bank"
+      ],
+      "bankCode": "091017",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Afole%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Afole%20MFB.svg"
+      }
+    },
+    {
       "name": "AG Mortgage Bank",
       "aliases": [
         "AG Mortgage Bank"
@@ -328,6 +355,19 @@
       }
     },
     {
+      "name": "Ajuta MFB",
+      "aliases": [
+        "Ajuta Microfinance Bank"
+      ],
+      "bankCode": "091021",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "Akalabo MFB",
       "aliases": [
         "Akalabo MFB"
@@ -351,6 +391,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/AKSU%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/AKSU%20MFB.svg"
+      }
+    },
+    {
+      "name": "Aku Diewa MFB",
+      "aliases": [
+        "Aku Diewa Microfinance Bank"
+      ],
+      "bankCode": "091009",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
       }
     },
     {
@@ -577,6 +630,19 @@
       }
     },
     {
+      "name": "Anchor MFB",
+      "aliases": [
+        "Anchor Microfinance Bank"
+      ],
+      "bankCode": "091014",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "Anioma MFB",
       "aliases": [
         "ANIOMA MFB"
@@ -681,6 +747,19 @@
       }
     },
     {
+      "name": "Asha MFB",
+      "aliases": [
+        "Asha Microfinance Bank"
+      ],
+      "bankCode": "091018",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Asha%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Asha%20MFB.svg"
+      }
+    },
+    {
       "name": "ASO Savings and Loans",
       "aliases": [
         "ASO Savings and Loans"
@@ -769,6 +848,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Auchi%20Poly%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Auchi%20Poly%20MFB.svg"
+      }
+    },
+    {
+      "name": "Avest MFB",
+      "aliases": [
+        "Avest Microfinance Bank"
+      ],
+      "bankCode": "091012",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
       }
     },
     {
@@ -2064,6 +2156,19 @@
       }
     },
     {
+      "name": "Dec-Enugu MFB",
+      "aliases": [
+        "Dec-Enugu Microfinance Bank"
+      ],
+      "bankCode": "090995",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "Delta Trust Mortgage Bank",
       "aliases": [
         "Delta Trust Mortgage Bank"
@@ -2324,6 +2429,19 @@
       }
     },
     {
+      "name": "EHINOMA MFB",
+      "aliases": [
+        "EHINOMA Microfinance Bank"
+      ],
+      "bankCode": "091004",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "Ejindu MFB",
       "aliases": [
         "Ejindu MFB"
@@ -2360,6 +2478,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Ekondo%20Microfinance%20Bank.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Ekondo%20Microfinance%20Bank.svg"
+      }
+    },
+    {
+      "name": "Ekwulobia MFB",
+      "aliases": [
+        "Ekwulobia Microfinance Bank"
+      ],
+      "bankCode": "091010",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Ekwulobia%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Ekwulobia%20MFB.svg"
       }
     },
     {
@@ -3313,6 +3444,19 @@
       }
     },
     {
+      "name": "Gobarau MFB",
+      "aliases": [
+        "Gobarau MFB"
+      ],
+      "bankCode": "091001",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "Goldman MFB",
       "aliases": [
         "Goldman MFB"
@@ -3650,6 +3794,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Hayat%20Trust%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Hayat%20Trust%20MFB.svg"
+      }
+    },
+    {
+      "name": "Hedge MFB",
+      "aliases": [
+        "Hedge Microfinance Bank"
+      ],
+      "bankCode": "091025",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
       }
     },
     {
@@ -4157,6 +4314,20 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/commercial-banks/Jaiz%20Bank.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/commercial-banks/Jaiz%20Bank.svg"
+      }
+    },
+    {
+      "name": "Jeje MFB",
+      "aliases": [
+        "Jeje Microfinance Bank",
+        "Strait Sahara Microfinance Bank"
+      ],
+      "bankCode": "090985",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Jeje%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Jeje%20MFB.svg"
       }
     },
     {
@@ -4747,32 +4918,6 @@
       }
     },
     {
-      "name": "Madobi MFB",
-      "aliases": [
-        "Madobi MFB"
-      ],
-      "bankCode": "090605",
-      "scCode": null,
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
-      }
-    },
-    {
-      "name": "Maestro MFB",
-      "aliases": [
-        "Maestro MFB"
-      ],
-      "bankCode": "090746",
-      "scCode": null,
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Maestro%20MFB.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Maestro%20MFB.svg"
-      }
-    },
-    {
       "name": "MAHFUZ MFB",
       "aliases": [
         "MAHFUZ MFB"
@@ -4822,6 +4967,21 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Malachy%20Microfinance%20Bank.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Malachy%20Microfinance%20Bank.svg"
+      }
+    },
+    {
+      "name": "Mango MFB",
+      "aliases": [
+        "Mango Microfinance Bank",
+        "TRUSTBANC J6 MICROFINANCE BANK",
+        "TRUSTBANC J6 MFB"
+      ],
+      "bankCode": "090447",
+      "scCode": "51118",
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Mango%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Mango%20MFB.svg"
       }
     },
     {
@@ -5595,6 +5755,19 @@
       }
     },
     {
+      "name": "Oganiru MFB",
+      "aliases": [
+        "Oganiru Microfinance Bank"
+      ],
+      "bankCode": "091011",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "OGBERURU MFB",
       "aliases": [
         "OGBERURU MFB"
@@ -5803,6 +5976,35 @@
       }
     },
     {
+      "name": "OneUtility MFB",
+      "aliases": [
+        "OneUtility Microfinance Bank",
+        "1UBank",
+        "Madobi MFB",
+        "Madobi Microfinance Bank"
+      ],
+      "bankCode": "090605",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/OneUtility%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/OneUtility%20MFB.svg"
+      }
+    },
+    {
+      "name": "Onewallet MFB",
+      "aliases": [
+        "Onewallet Microfinance Bank"
+      ],
+      "bankCode": "090874",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Onewallet%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Onewallet%20MFB.svg"
+      }
+    },
+    {
       "name": "OPay Digital Services Limited",
       "aliases": [
         "OPay Digital Services Limited",
@@ -5933,6 +6135,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Ours%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Ours%20MFB.svg"
+      }
+    },
+    {
+      "name": "Oye Versity MFB",
+      "aliases": [
+        "Oye Versity Microfinance Bank"
+      ],
+      "bankCode": "091029",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Oye%20Versity%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Oye%20Versity%20MFB.svg"
       }
     },
     {
@@ -6787,6 +7002,19 @@
       }
     },
     {
+      "name": "Safeline MFB",
+      "aliases": [
+        "Safeline Microfinance Bank"
+      ],
+      "bankCode": "090875",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Safeline%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Safeline%20MFB.svg"
+      }
+    },
+    {
       "name": "Sagamu MFB",
       "aliases": [
         "Sagamu MFB"
@@ -6888,6 +7116,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Shield%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Shield%20MFB.svg"
+      }
+    },
+    {
+      "name": "Shine MFB",
+      "aliases": [
+        "Shine Microfinance Bank"
+      ],
+      "bankCode": "091006",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Shine%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Shine%20MFB.svg"
       }
     },
     {
@@ -7226,19 +7467,6 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mobile-money/Sterling%20Mobile.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mobile-money/Sterling%20Mobile.svg"
-      }
-    },
-    {
-      "name": "Strait Sahara MFB",
-      "aliases": [
-        "Strait Sahara Microfinance Bank"
-      ],
-      "bankCode": "090985",
-      "scCode": null,
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
       }
     },
     {
@@ -7593,19 +7821,6 @@
       }
     },
     {
-      "name": "TRUSTBANC J6 MFB",
-      "aliases": [
-        "TRUSTBANC J6 MICROFINANCE BANK"
-      ],
-      "bankCode": "51118",
-      "scCode": "51118",
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/TRUSTBANC%20J6%20MFB.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/TRUSTBANC%20J6%20MFB.svg"
-      }
-    },
-    {
       "name": "Trustbond Mortgage Bank",
       "aliases": [
         "Trustbond Mortgage Bank"
@@ -7616,6 +7831,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mortgage-banks/Trustbond%20Mortgage%20Bank.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mortgage-banks/Trustbond%20Mortgage%20Bank.svg"
+      }
+    },
+    {
+      "name": "Tudun Wada MFB",
+      "aliases": [
+        "Tudun Wada Microfinance Bank"
+      ],
+      "bankCode": "090870",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
       }
     },
     {
@@ -7747,6 +7975,21 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Ultimate%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Ultimate%20MFB.svg"
+      }
+    },
+    {
+      "name": "Ultrapay MFB",
+      "aliases": [
+        "Ultrapay Microfinance Bank",
+        "Wudil Microfinance Bank",
+        "Wudil MFB"
+      ],
+      "bankCode": "090253",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Ultrapay%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Ultrapay%20MFB.svg"
       }
     },
     {
@@ -8127,6 +8370,19 @@
       }
     },
     {
+      "name": "Welfare MFB",
+      "aliases": [
+        "Welfare Microfinance Bank"
+      ],
+      "bankCode": "090997",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/_default.svg"
+      }
+    },
+    {
       "name": "Wema Bank",
       "aliases": [
         "Wema Bank"
@@ -8166,19 +8422,6 @@
       }
     },
     {
-      "name": "Wudil MFB",
-      "aliases": [
-        "Wudil MFB"
-      ],
-      "bankCode": "090253",
-      "scCode": null,
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Wudil%20MFB.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Wudil%20MFB.svg"
-      }
-    },
-    {
       "name": "Xpress Wallet",
       "aliases": [
         "Xpress Wallet"
@@ -8202,6 +8445,19 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mobile-money/XpressMTS.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mobile-money/XpressMTS.svg"
+      }
+    },
+    {
+      "name": "Yabo MFB",
+      "aliases": [
+        "Yabo Microfinance Bank"
+      ],
+      "bankCode": "090994",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Yabo%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Yabo%20MFB.svg"
       }
     },
     {
@@ -8293,6 +8549,21 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/mobile-money/ZENITH%20Mobile.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/mobile-money/ZENITH%20Mobile.svg"
+      }
+    },
+    {
+      "name": "Zeus MFB",
+      "aliases": [
+        "Zeus Microfinance Bank",
+        "Maestro MFB",
+        "Maestro Microfinance Bank"
+      ],
+      "bankCode": "090746",
+      "scCode": null,
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Zeus%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Zeus%20MFB.svg"
       }
     },
     {
