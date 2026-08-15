@@ -1,107 +1,106 @@
-import crypto from 'node:crypto'
-import fs from 'node:fs'
-import path from 'node:path'
-import sharp from 'sharp'
+import crypto from "node:crypto";
+import fs from "node:fs";
+import path from "node:path";
+import sharp from "sharp";
 
 export const CDN_ROOT =
-  'https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main'
-export const JSON_SCHEMA_VERSION = '1.0.0'
-export const PNG_SIZE = 400
+  "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main";
+export const JSON_SCHEMA_VERSION = "1.1.0";
+export const PNG_SIZE = 400;
 
 export function categoryFolder(category) {
-  return category.replaceAll('_', '-')
+  return category.replaceAll("_", "-");
 }
 
-export function validateSvgSafety(content, filePath = 'SVG') {
+export function validateSvgSafety(content, filePath = "SVG") {
   const forbiddenMarkup =
-    /<script\b|\son[a-z]+\s*=|javascript\s*:|<iframe\b|<object\b|<embed\b/i
+    /<script\b|\son[a-z]+\s*=|javascript\s*:|<iframe\b|<object\b|<embed\b/i;
   if (forbiddenMarkup.test(content)) {
-    throw new Error(`${filePath} contains unsafe SVG content`)
+    throw new Error(`${filePath} contains unsafe SVG content`);
   }
 
-  const hrefPattern = /\b(?:href|xlink:href)\s*=\s*(['"])(.*?)\1/gi
+  const hrefPattern = /\b(?:href|xlink:href)\s*=\s*(['"])(.*?)\1/gi;
   for (const match of content.matchAll(hrefPattern)) {
-    const value = match[2].trim()
-    if (!value.startsWith('#') && !value.startsWith('data:')) {
-      throw new Error(`${filePath} contains an external SVG resource: ${value}`)
+    const value = match[2].trim();
+    if (!value.startsWith("#") && !value.startsWith("data:")) {
+      throw new Error(
+        `${filePath} contains an external SVG resource: ${value}`,
+      );
     }
   }
 }
 
 export function resolveSource({ rootDir, currency, category, bank }) {
-  const folder = categoryFolder(category)
+  const folder = categoryFolder(category);
   const sourceDir = path.join(
     rootDir,
-    'source',
+    "source",
     currency.toLowerCase(),
     folder,
-  )
-  const canonical = path.join(sourceDir, `${bank.name}.svg`)
+  );
+  const canonical = path.join(sourceDir, `${bank.name}.svg`);
 
   if (fs.existsSync(canonical)) {
-    return { sourcePath: canonical, match: 'canonical', matchedAlias: null }
+    return { sourcePath: canonical, match: "canonical", matchedAlias: null };
   }
 
   for (const alias of bank.aliases ?? []) {
-    const aliasPath = path.join(sourceDir, `${alias}.svg`)
+    const aliasPath = path.join(sourceDir, `${alias}.svg`);
     if (fs.existsSync(aliasPath)) {
-      return { sourcePath: aliasPath, match: 'alias', matchedAlias: alias }
+      return { sourcePath: aliasPath, match: "alias", matchedAlias: alias };
     }
   }
 
   return {
-    sourcePath: path.join(rootDir, 'source', '_default.svg'),
-    match: 'fallback',
+    sourcePath: path.join(rootDir, "source", "_default.svg"),
+    match: "fallback",
     matchedAlias: null,
-  }
+  };
 }
 
 export function assetUrl({ currency, category, format, filename }) {
   return [
     CDN_ROOT,
-    'logos',
+    "logos",
     currency.toLowerCase(),
     format,
     categoryFolder(category),
     encodeURIComponent(filename),
-  ].join('/')
+  ].join("/");
 }
 
 export function defaultAssetUrl(format) {
-  return `${CDN_ROOT}/logos/_default.${format}`
+  return `${CDN_ROOT}/logos/_default.${format}`;
 }
 
 export async function renderPng(sourcePath, outputPath) {
-  await sharp(sourcePath)
-    .resize(PNG_SIZE, PNG_SIZE)
-    .png()
-    .toFile(outputPath)
+  await sharp(sourcePath).resize(PNG_SIZE, PNG_SIZE).png().toFile(outputPath);
 }
 
 export function loadBankData(rootDir) {
   return JSON.parse(
-    fs.readFileSync(path.join(rootDir, 'data', 'bank.json'), 'utf8'),
-  )
+    fs.readFileSync(path.join(rootDir, "data", "bank.json"), "utf8"),
+  );
 }
 
 export function expectedBankCount(currencyData) {
   return Object.values(currencyData.categories).reduce(
     (total, banks) => total + banks.length,
     0,
-  )
+  );
 }
 
 function stableStringify(value) {
   if (Array.isArray(value)) {
-    return `[${value.map((item) => stableStringify(item)).join(',')}]`
+    return `[${value.map((item) => stableStringify(item)).join(",")}]`;
   }
-  if (value && typeof value === 'object') {
+  if (value && typeof value === "object") {
     return `{${Object.keys(value)
       .sort()
       .map((key) => `${JSON.stringify(key)}:${stableStringify(value[key])}`)
-      .join(',')}}`
+      .join(",")}}`;
   }
-  return JSON.stringify(value)
+  return JSON.stringify(value);
 }
 
 export function dataVersionForDocument({
@@ -115,8 +114,8 @@ export function dataVersionForDocument({
     currency,
     metadata,
     banks,
-  })
-  return `sha256:${crypto.createHash('sha256').update(content).digest('hex')}`
+  });
+  return `sha256:${crypto.createHash("sha256").update(content).digest("hex")}`;
 }
 
 export function buildJsonDocument({ currency, metadata, banks }) {
@@ -125,12 +124,12 @@ export function buildJsonDocument({ currency, metadata, banks }) {
     currency,
     metadata,
     banks,
-  }
+  };
   return {
     schemaVersion: documentWithoutDataVersion.schemaVersion,
     dataVersion: dataVersionForDocument(documentWithoutDataVersion),
     currency,
     metadata,
     banks,
-  }
+  };
 }
