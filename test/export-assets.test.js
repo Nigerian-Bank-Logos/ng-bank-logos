@@ -81,7 +81,7 @@ test('JSON document versioning is deterministic and content-addressed', () => {
     banks: [{ ...banks[0], bankCode: '2' }],
   })
 
-  assert.equal(document.schemaVersion, '1.0.0')
+  assert.equal(document.schemaVersion, '1.1.0')
   assert.match(document.dataVersion, /^sha256:[a-f0-9]{64}$/)
   assert.equal(document.dataVersion, sameDocument.dataVersion)
   assert.notEqual(document.dataVersion, changedDocument.dataVersion)
@@ -187,7 +187,7 @@ test('fallback banks share the generated default asset URLs', async () => {
   const document = JSON.parse(
     fs.readFileSync(path.join(rootDir, 'dist', 'banks_NGN.json'), 'utf8'),
   )
-  assert.equal(document.schemaVersion, '1.0.0')
+  assert.equal(document.schemaVersion, '1.1.0')
   assert.match(document.dataVersion, /^sha256:[a-f0-9]{64}$/)
   assert.equal(document.currency, 'NGN')
   assert.equal(document.metadata.total_banks, 2)
