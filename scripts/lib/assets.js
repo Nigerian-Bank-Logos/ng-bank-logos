@@ -5,7 +5,7 @@ import sharp from "sharp";
 
 export const CDN_ROOT =
   "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main";
-export const JSON_SCHEMA_VERSION = "1.1.0";
+export const JSON_SCHEMA_VERSION = "1.2.0";
 export const PNG_SIZE = 400;
 
 export function categoryFolder(category) {
