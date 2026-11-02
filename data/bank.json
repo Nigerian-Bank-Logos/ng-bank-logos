@@ -3,6 +3,7 @@
     "metadata": {
       "sources": [
         "Paystack API",
+        "Korapay API",
         "Globus Bank PDF",
         "NIP Institution List (Kuda)"
       ],
@@ -429,7 +430,7 @@
           "scCode": "601"
         },
         {
-          "name": "Greenwich Merchant Bank",
+          "name": "Greenwich Bank",
           "aliases": ["Greenwich Merchant Bank"],
           "bankCode": "060004",
           "scCode": "562"
@@ -794,8 +795,12 @@
           "scCode": null
         },
         {
-          "name": "Bank78 Microfinance Bank",
-          "aliases": ["Bank78 MFB"],
+          "name": "78 MFB",
+          "aliases": [
+            "78 Microfinance Bank",
+            "Bank78 MFB",
+            "Bank78 Microfinance Bank"
+          ],
           "bankCode": "090866",
           "scCode": "11072"
         },
@@ -806,8 +811,12 @@
           "scCode": null
         },
         {
-          "name": "BANKIT MICROFINANCE BANK LTD",
-          "aliases": ["BANKIT MFB LTD"],
+          "name": "Wayve MFB",
+          "aliases": [
+            "Wayve Microfinance Bank",
+            "BANKIT MICROFINANCE BANK LTD",
+            "BANKIT MFB LTD"
+          ],
           "bankCode": "090275",
           "scCode": "50572"
         },
@@ -1046,8 +1055,13 @@
           "scCode": null
         },
         {
-          "name": "Cashbridge Microfinance Bank Limited",
-          "aliases": ["Cashbridge MFB Limited"],
+          "name": "CB Pay MFB",
+          "aliases": [
+            "CB Pay Microfinance Bank",
+            "Cashbridge Pay",
+            "Cashbridge Microfinance Bank Limited",
+            "Cashbridge MFB Limited"
+          ],
           "bankCode": "090634",
           "scCode": "51353"
         },
