@@ -1,10 +1,10 @@
 {
-  "schemaVersion": "1.2.0",
-  "dataVersion": "sha256:b5b0085915a68b7647752f4b9c475299a9ea9efff0a35bdae2673a2415719a94",
+  "schemaVersion": "1.3.0",
+  "dataVersion": "sha256:4828dfe9f6c8dce3d243024596ec424e58a06a6ed726d4d38369ca3a178cfbd4",
   "currency": "NGN",
   "metadata": {
     "total_banks": 660,
-    "last_updated": "2026-09-10T16:29:56.521Z"
+    "last_updated": "2026-11-02T18:12:27.412Z"
   },
   "banks": [
     {
@@ -31,6 +31,21 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/finance-companies/78%20Finance%20Company%20Limited.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/finance-companies/78%20Finance%20Company%20Limited.svg"
+      }
+    },
+    {
+      "name": "78 MFB",
+      "aliases": [
+        "78 Microfinance Bank",
+        "Bank78 MFB",
+        "Bank78 Microfinance Bank"
+      ],
+      "bankCode": "090866",
+      "scCode": "11072",
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/78%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/78%20MFB.svg"
       }
     },
     {
@@ -1020,19 +1035,6 @@
       }
     },
     {
-      "name": "Bank78 Microfinance Bank",
-      "aliases": [
-        "Bank78 MFB"
-      ],
-      "bankCode": "090866",
-      "scCode": "11072",
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Bank78%20Microfinance%20Bank.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Bank78%20Microfinance%20Bank.svg"
-      }
-    },
-    {
       "name": "BankEasy MFB",
       "aliases": [
         "BankEasy Microfinance Bank"
@@ -1043,19 +1045,6 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/BankEasy%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/BankEasy%20MFB.svg"
-      }
-    },
-    {
-      "name": "BANKIT MICROFINANCE BANK LTD",
-      "aliases": [
-        "BANKIT MFB LTD"
-      ],
-      "bankCode": "090275",
-      "scCode": "50572",
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/BANKIT%20MICROFINANCE%20BANK%20LTD.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/BANKIT%20MICROFINANCE%20BANK%20LTD.svg"
       }
     },
     {
@@ -1635,19 +1624,6 @@
       }
     },
     {
-      "name": "Cashbridge Microfinance Bank Limited",
-      "aliases": [
-        "Cashbridge MFB Limited"
-      ],
-      "bankCode": "090634",
-      "scCode": "51353",
-      "category": "microfinance_banks",
-      "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Cashbridge%20Microfinance%20Bank%20Limited.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Cashbridge%20Microfinance%20Bank%20Limited.svg"
-      }
-    },
-    {
       "name": "CASHCONNECT MFB",
       "aliases": [
         "CASHCONNECT Microfinance Bank"
@@ -1671,6 +1647,22 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/CashRite%20MFB.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/CashRite%20MFB.svg"
+      }
+    },
+    {
+      "name": "CB Pay MFB",
+      "aliases": [
+        "CB Pay Microfinance Bank",
+        "Cashbridge Pay",
+        "Cashbridge Microfinance Bank Limited",
+        "Cashbridge MFB Limited"
+      ],
+      "bankCode": "090634",
+      "scCode": "51353",
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/CB%20Pay%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/CB%20Pay%20MFB.svg"
       }
     },
     {
@@ -3613,7 +3605,7 @@
       }
     },
     {
-      "name": "Greenwich Merchant Bank",
+      "name": "Greenwich Bank",
       "aliases": [
         "Greenwich Merchant Bank"
       ],
@@ -3621,8 +3613,8 @@
       "scCode": "562",
       "category": "merchant_banks",
       "logos": {
-        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/merchant-banks/Greenwich%20Merchant%20Bank.png",
-        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/merchant-banks/Greenwich%20Merchant%20Bank.svg"
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/merchant-banks/Greenwich%20Bank.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/merchant-banks/Greenwich%20Bank.svg"
       }
     },
     {
@@ -8398,6 +8390,21 @@
       "logos": {
         "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Waya%20Microfinance%20Bank.png",
         "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Waya%20Microfinance%20Bank.svg"
+      }
+    },
+    {
+      "name": "Wayve MFB",
+      "aliases": [
+        "Wayve Microfinance Bank",
+        "BANKIT MICROFINANCE BANK LTD",
+        "BANKIT MFB LTD"
+      ],
+      "bankCode": "090275",
+      "scCode": "50572",
+      "category": "microfinance_banks",
+      "logos": {
+        "png": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/png/microfinance-banks/Wayve%20MFB.png",
+        "svg": "https://cdn.jsdelivr.net/gh/Nigerian-Bank-Logos/ng-bank-logos@main/logos/ngn/svg/microfinance-banks/Wayve%20MFB.svg"
       }
     },
     {
